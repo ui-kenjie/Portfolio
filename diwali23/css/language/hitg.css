@@ -1,0 +1,11 @@
+/*Here is only for HITG language */
+:root {
+    --main-font-family: 'Noto Serif Telugu'; 
+    --main-button-font-family: 'Noto Serif Telugu'; 
+    --secondary-font-family: 'Ramaraja';  
+}
+
+.sectionTitle,
+h1, h2, h3, h4 ,h5 ,h6 {
+    font-weight: 900;
+}

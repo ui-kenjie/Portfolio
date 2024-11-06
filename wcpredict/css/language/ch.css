@@ -1,0 +1,11 @@
+/*Here is only for ch language */
+
+body {
+    font-family: 'Microsoft YaHei'
+}
+.sectionTitle,
+.contestPrizes table tr th,
+.contestPrizes table tr td:nth-child(1),
+.contestPrizes table tr td:nth-child(3) {
+    font-weight: bold;
+}

@@ -1,0 +1,14 @@
+/*Here is only for vn language */
+body {
+    font-family: 'Tahoma';
+}
+
+:root {
+    --main-font-family: 'Tahoma', sans-serif; 
+    --main-button-font-family: 'Tahoma', sans-serif; 
+    --secondary-font-family: 'Tahoma', sans-serif;
+}
+
+.sectionTitle {
+    font-weight: bold;
+}

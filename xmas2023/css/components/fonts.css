@@ -1,0 +1,61 @@
+/*** Font setting ***/
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url('../../fonts/montserrat-regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url('../../fonts/montserrat-light.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url('../../fonts/montserrat-bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url('../../fonts/montserrat-black.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Nokora";
+  src: url('../../fonts/nokora-regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Nokora";
+  src: url('../../fonts/nokora-bold.ttf') format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Nokora";
+  src: url('../../fonts/nokora-black.ttf') format('truetype');
+  font-weight: 900;
+}
+@font-face {
+  font-family: "Noto Serif Telugu";
+  src: url('../../fonts/noto-serif-telugu-regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Noto Serif Telugu";
+  src: url('../../fonts/noto-serif-telugu-medium.ttf.ttf') format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Noto Serif Telugu";
+  src: url('../../fonts/noto-serif-telugu-bold.ttf.ttf') format('truetype');
+  font-weight: 900;
+}
+
+/* SPECIAL FONT */
+@font-face {
+  font-family: "ThirstyScriptExtrabold";
+  src: url('../../fonts/thirstyscriptextrabolddemo.otf') format('truetype');
+}
+@font-face {
+  font-family: "Altoys";
+  src: url('../../fonts/altoysitalic-personal-only.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Niconne";
+  src: url('../../fonts/niconne-regular.ttf') format('truetype');
+}
+
+

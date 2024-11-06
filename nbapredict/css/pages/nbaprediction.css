@@ -1,0 +1,2084 @@
+/* Banner Section*/
+.nba-prediction .mainContent {
+    background-image: url('../../images/common/mobile-bg.jpg');
+    background-size: 100%;
+    background-color: #5d5a61;
+    background-position: center 200px;
+    overflow: hidden;
+}
+
+.nba-prediction section {
+    width: 100%;
+}
+
+.nba-prediction .mainBanner {
+    text-align: center;
+    padding: 0;
+    background-image: url('../../images/common/main-banner-bg-mobile.png');
+    background-size: 100%;
+    min-height: 460px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nba-prediction .textBanner {
+    text-transform: uppercase;
+    width: 65%;
+}
+
+.nba-prediction .textBanner img {
+    width: 90%;
+}
+
+.nba-prediction .textBanner p {
+    font-size: 0.7rem;
+    margin: 0 auto;
+    line-height: 1;
+    width: 75%;
+}
+
+.nba-prediction .buttonBanner {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nba-prediction .buttonBanner a.contentButton {
+    font-size: 0.7rem;
+    font-weight: normal;
+    padding: 5px 0;
+}
+
+/* Steps Section */
+.nba-prediction .stepBox {
+    text-align: center;
+    width: 100%;
+    margin: -200px 0 0 0;
+    padding: 0;
+}
+
+.nba-prediction .stepBox .stepsTitle-desktop {
+    display: none;
+}
+
+.nba-prediction .stepBox .stepsWrapper {
+    display: none;
+    margin: 50px auto;
+}
+
+.nba-prediction .stepBox .stepsWrapper > div {
+    width: 33.3%;
+}
+
+.nba-prediction .stepBox .stepBox-icons-slider {
+    display: block;
+}
+
+.nba-prediction .stepBox .stepBox-icons-slider .carousel-inner {
+    margin: 20px auto 0;
+    padding: 0;
+}
+
+.nba-prediction .stepBox .stepBox-icons-slider .carousel-indicators {
+    bottom: -30px;
+    display: none;
+}
+
+.nba-prediction .stepBox img.stepImages {
+    width: 100%;
+    max-width: 250px;
+}
+
+.nba-prediction .carousel-control-next, 
+.nba-prediction .carousel-control-prev {
+    opacity: 1;
+}
+
+.nba-prediction .carousel-control-prev-icon,
+.nba-prediction .carousel-control-next-icon {
+    width: 30px;
+    height: 45px;
+    background-size: 100%;
+}
+
+.nba-prediction .carousel-control-prev-icon {
+    background-image: url('../../images/common/steps-prev.png');
+}
+
+.nba-prediction .carousel-control-next-icon {
+    background-image: url('../../images/common/steps-next.png');
+}
+
+.nba-prediction .stepBox .steps-bg-desktop {
+    display: none;
+}
+
+/* 12Store */
+.nba-prediction .store {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--secondary-font-family);
+    background-image: url('../../images/common/12store-bg-mobile.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 580px;
+    padding: 120px 10px;
+    background-position: center -50px;
+    margin-bottom: 0;
+}
+
+.nba-prediction .store h2 {
+    font-size: 1.2rem;
+    margin: 0 auto;
+}
+
+.nba-prediction .store h1 {
+    font-size: 1.4rem;
+    margin: 0 auto;
+}
+
+.nba-prediction .store .store-icons-slider {
+    margin: 40px auto 20px;
+}  
+
+.nba-prediction .store .design-bg {
+    width: 90px;
+    position: absolute;
+    left: -40px;
+    bottom: 0;
+}
+
+.nba-prediction .store .cascade-slider_arrow {
+    display: inline-block;
+}
+
+/* 12STORE 3D SLIDER */
+.nba-prediction .store .cascade-slider_container {
+    position: relative;
+    width: 100%;
+    height: 240px;
+    margin: 0 auto;
+    }
+
+.nba-prediction .store .cascade-slider_item2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%) scale(0.3);
+    transition: all 1s ease;
+    opacity: 0;
+    z-index: -1;
+}
+
+.nba-prediction .store .cascade-slider_item2.next {
+    left: 50%;
+    transform: translateY(-50%) translateX(-95%) scale(1);
+    opacity: 1;
+    z-index: 1;
+    filter: blur(5px) opacity(0.4);
+}
+
+.nba-prediction .store .cascade-slider_item2.prev {
+    left: 50%;
+    transform: translateY(-50%) translateX(-5%) scale(1);
+    opacity: 1;
+    z-index: 1;
+    filter: blur(5px) opacity(0.4);
+}
+
+.nba-prediction .store .cascade-slider_item2.now {
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%) scale(1.6);
+    opacity: 1;
+    z-index: 5;
+    border-radius: 30px;
+}
+
+.nba-prediction .store .cascade-slider_item2 img {
+    width: 100%;
+}
+
+.nba-prediction .store .cascade-slider_arrow2 {
+    display: inline-block;
+    position: absolute;
+    top: 30%;
+    cursor: pointer;
+    z-index: 5;
+}
+  
+.nba-prediction .store .cascade-slider_arrow-left { 
+    left: 10px; 
+}
+  
+.nba-prediction .store .cascade-slider_arrow-right { 
+    right: 10px; 
+}
+
+.nba-prediction .store .cascade-slider_arrow-left img,
+.nba-prediction .store .cascade-slider_arrow-right img {
+    width: 30px;
+}
+
+/* Weekly Tabs */
+.nba-prediction .weekly {
+    padding: 0;
+    margin: -70px auto 0;
+}
+
+.nba-prediction .weekly .item > a {
+    display: block;
+    width: 90%;
+    text-align: center;
+    color: var(--main-font-color);
+    padding: 3px 0;
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: auto;
+    background-image: url('../../images/common/weekly-header-bg.png');
+    background-size: 100%;
+    background-position: center;
+    width: 70%;
+    height: 75px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.nba-prediction .weekly .item a span.weeks-text:nth-child(1) {
+    font-family: var(--secondary-font-family);
+    font-size: 1.4rem;
+}
+
+.nba-prediction .weekly .item a span.weeks-text {
+    line-height: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nba-prediction .weekly .carousel-control-prev,
+.nba-prediction .weekly .carousel-control-next {
+    opacity: 1;
+    align-items: flex-start;
+    top: 15px;
+    height: 45px;
+}
+
+.nba-prediction .weekly .carousel-control-prev {
+    left: 10px;
+}
+
+.nba-prediction .weekly .carousel-control-next {
+    right: 10px;
+}
+
+.nba-prediction .weekly .carousel-control-prev-icon, 
+.nba-prediction .weekly .carousel-control-next-icon {
+    width: 45px;
+    height: 45px;
+    background-size: 100%;
+}
+
+.nba-prediction .weekly .carousel-control-prev-icon {
+    background-image: url('../../images/common/weekly-tab-prev.png');
+}
+
+.nba-prediction .weekly .carousel-control-next-icon {
+    background-image: url('../../images/common/weekly-tab-next.png');
+}
+
+.nba-prediction .weekly a {
+    cursor: pointer;
+}
+
+.nba-prediction .carousel-fade .carousel-item.active {
+    transition: opacity 0.1s 0.1s;
+}
+
+.nba-prediction .weekly .coming-soon-wrap {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed #c4ad50;
+    border-radius: 10px;
+    margin: 1.5em auto;
+    width: 80%;
+}
+
+/* Table with custom scrollbar */
+.nba-prediction .weekly .carousel-item .table-wrapper {
+    background-color: #ece2bd;
+    width: 97%;
+    margin: 30px auto;
+    border-radius: 20px;
+    color: #343237;
+    background: rgb(243,233,196);
+    background: linear-gradient(180deg, rgba(243,233,196,1) 0%, rgba(96,80,37,1) 100%);
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-header {
+    display: flex;
+    justify-content: center;
+    padding: 0 5px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.7rem;
+    line-height: 1;
+    font-family: var(--secondary-font-family);
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-header > div {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-header > div:nth-child(2) {
+    background-color: #f5f0cd;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.nba-prediction .table-wrapper > div.scroll {
+    height: 506px;
+    padding: 0 5px 5px;
+    font-size: 0.6rem;
+}
+
+.nba-prediction .table-wrapper > div.scroll .mCustomScrollBox {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-data {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    background-color: #1a191b;
+    color: #fff;
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-header > div:nth-child(1),
+.nba-prediction .weekly .carousel-item .table-wrapper .table-data > div:nth-child(1) {
+    width: 15%;
+    padding: 0;
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-header > div:nth-child(2),
+.nba-prediction .weekly .carousel-item .table-wrapper .table-data > div:nth-child(2) {
+    width: 63%;     
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-header > div:nth-child(3),
+.nba-prediction .weekly .carousel-item .table-wrapper .table-data > div:nth-child(3) {
+    width: 20%;     
+    padding: 0 5px 0 0;
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-header > div:nth-child(1) {
+    padding: 10px;
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-data > div {
+    /* width: 60%; */
+    padding: 10px 5px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-data:nth-child(odd) {
+    background-color: #343237;
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-data:nth-child(even) {
+    background-color: #3a383e;
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-data:nth-child(odd) .match-content {
+    background-color: #434047;
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-data:nth-child(even) .match-content {
+    background-color: #49464e;
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-data .match-content {
+    display: flex;
+    font-size: 0.6rem;
+    align-items: center;
+    justify-content: center;
+    color: #636363;
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-data .match-content .match-radio {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-data .match-content .match-radio:nth-child(1) {
+    justify-content: flex-end;
+    margin-right: 3px;
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-data .match-content .match-radio:nth-child(2) {
+    justify-content: flex-start;
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-data .match-content .match-radio:nth-child(1) label {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-data .match-content .match-radio:nth-child(2) label {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-data .match-content .match-radio img {
+    width: 40px;
+    filter: grayscale(100%);
+    margin: 0 3px;
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-data .match-content .match-radio input[type=radio]:checked~label img,
+.nba-prediction .weekly .carousel-item .table-wrapper .table-data .match-content .match-radio input[type=radio]:checked+label img {
+    filter: grayscale(0);
+    filter: drop-shadow(0 0 3px #fff);
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-data .match-content .match-radio input[type=radio]:checked~label span,
+.nba-prediction .weekly .carousel-item .table-wrapper .table-data .match-content .match-radio input[type=radio]:checked+label span {
+    color: #fffae5;
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-data .match-content .match-radio input[type=radio] {
+    display: none;
+}
+
+.nba-prediction .weekly .carousel-item .table-wrapper .table-data select {
+    width: 100%;
+    padding: 3px 0;
+}
+
+.nba-prediction .weekly img.weekly-bg-player1,
+.nba-prediction .weekly img.weekly-bg-player2,
+.nba-prediction .weekly img.weekly-bg-player3 {
+    display: none;
+}
+
+/* Custom Scrollbar */
+.mCSB_inside > .mCSB_container {
+    margin: 0;
+}
+.mCS-3d-thick.mCSB_scrollTools .mCSB_draggerContainer {
+    background-color: #dadada;
+    box-shadow: none;
+    border-radius: 0;
+}
+.mCS-3d-thick.mCSB_scrollTools_vertical, .mCS-3d-thick-dark.mCSB_scrollTools_vertical {
+    width: 7px;
+}
+.mCS-3d-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-3d-thick.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background-color: #b0adad;
+    box-shadow: none;
+    background-image: none;
+    width: 5px;
+    border-radius: 0;
+}
+
+
+/* Timer */
+.time {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 30px auto;
+    padding: 10px;
+    background-color: firebrick;
+    border: 1px #bb87bc solid;
+}
+
+.time-desc {
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1;
+    width: 30%;
+    margin: 0;
+    border-right: 1px #bb87bc solid;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.nba-prediction .timeTo {
+    background-color: transparent;
+    height: auto;
+    line-height: 50px;
+    width: auto;
+    justify-content: center;
+    display: flex;
+    font-weight: normal;
+    padding: 3px 0 0 5px;
+    font-family: var(--main-font-family);
+}
+
+.nba-prediction .timeTo figure {
+    border: none;
+    background-color: transparent;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 27px !important;
+    max-width: 30px !important;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nba-prediction .timeTo figure > div {
+    background: transparent !important;
+    border: none !important;
+    color: var(--main-font-color) !important;
+    font-family: var(--main-font-family);
+    line-height: 1;
+    margin: 0 !important;
+    width: 12px !important;
+}
+
+.nba-prediction .timeTo figcaption {
+    display: none;
+}
+
+.nba-prediction .timeTo span {
+    display: flex;
+    width: 3px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4px;
+
+}
+
+.nba-prediction .mainContent .timeTo ul {
+    padding-left: 0;
+}
+
+.nba-prediction .weekly .item .tableButtons {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nba-prediction .weekly .item .tableButtons a {
+    margin: 0 5px;
+    font-size: 0.8rem;
+    padding: 8px;
+}
+
+/* HOW TO 3D SLIDER */
+.nba-prediction .sliderTNC .cascade-slider_container {
+    position: relative;
+    width: 80%;
+    height: 350px;
+    margin: 0 auto;
+    }
+
+.nba-prediction .sliderTNC .cascade-slider_item {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%) scale(0.3);
+    transition: all 1s ease;
+    opacity: 0;
+    z-index: -1;
+}
+
+.nba-prediction .sliderTNC .cascade-slider_item.next {
+    left: 50%;
+    transform: translateY(-50%) translateX(-95%) scale(1);
+    opacity: 1;
+    z-index: 1;
+    filter: blur(2px);
+}
+
+.nba-prediction .sliderTNC .cascade-slider_item.prev {
+    left: 50%;
+    transform: translateY(-50%) translateX(-5%) scale(1);
+    opacity: 1;
+    z-index: 1;
+    filter: blur(2px);
+}
+
+.nba-prediction .sliderTNC .cascade-slider_item.now {
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%) scale(1.3);
+    opacity: 1;
+    z-index: 5;
+    box-shadow: 0px 0px 30px #f9efa7;
+    border-radius: 50px;
+}
+
+.nba-prediction .sliderTNC .cascade-slider_item img {
+    width: 100%;
+}
+
+.nba-prediction .sliderTNC .cascade-slider_arrow {
+    display: inline-block;
+    position: absolute;
+    top: 45%;
+    cursor: pointer;
+    z-index: 5;
+}
+  
+.nba-prediction .sliderTNC .cascade-slider_arrow-left { 
+    left: -20px; 
+}
+  
+.nba-prediction .sliderTNC .cascade-slider_arrow-right { 
+    right: -20px; 
+}
+
+.nba-prediction .sliderTNC .cascade-slider_arrow-left img,
+.nba-prediction .sliderTNC .cascade-slider_arrow-right img {
+    width: 30px;
+}
+  
+.nba-prediction .sliderTNC .cascade-slider_nav {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+  
+.nba-prediction .sliderTNC .cascade-slider_dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 10px;
+    background: #555; 
+    list-style: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+  
+.nba-prediction .sliderTNC .cascade-slider_dot:hover { 
+    background: #ddd;
+}
+  
+.nba-prediction .sliderTNC .cascade-slider_dot.cur { 
+    background: #ddd;
+    width: 15px;
+    height: 15px;
+}
+
+.nba-prediction .sliderTNC .cascade-slider_container .design-bg {
+    width: 190px;
+    position: absolute;
+    right: -120px;
+    top: 20px;
+}
+
+/* TNC SECTION */
+.nba-prediction .sliderTNC {
+    background-image: url(../../images/common/tnc-bg-mobile.png);
+    background-size: 100%;
+    padding: 30px 0;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.nba-prediction .sliderTNC .tncSection {
+    background-image: url(../../images/common/tnc2-bg-mobile.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    margin: 0 auto;
+}
+
+.nba-prediction .tnc ol {
+    padding: 0px 20px 0 30px;
+}
+
+.nba-prediction .tnc .highlight {
+    color: #ddc35f;
+}
+
+.nba-prediction .tnc ol li ol {
+    padding-left: 35px;
+}
+
+.nba-prediction .tnc ol li ol li {
+    list-style: upper-alpha;
+}
+
+.nba-prediction .tnc ol li div {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+/* Form Section */
+.formsection form {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.formsection .row {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-group.row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+.formLabel {
+    display: none;
+    width: 50%;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.forminput {
+    width: 100%;
+}
+
+.forminput img {
+    max-width: 350px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.forminput input,
+.forminput select,
+.select-teams-select select {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: var(--main-input-color);
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.formButton {
+    text-align: center;
+}
+
+
+/* Modal Form */
+.submitForm.modal .modal-content {
+    border-radius: 20px;
+    padding: 5px;
+    background: rgb(243,233,196);
+    background: linear-gradient(180deg, rgba(243,233,196,1) 0%, rgba(96,80,37,1) 100%);
+    box-shadow: 1px 1px 20px #f9efa7;
+}
+
+.modal-dialog .close {
+    color: #fff;
+}
+
+.submitForm.modal .modal-content .modal-body {
+    background-color: #000;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.submitForm.modal .title {
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 1em 0;
+    color: #ffd485;
+    text-transform: uppercase;
+    font-family: var(--secondary-font-family);
+}
+
+.submitForm.modal .formsection > a {
+    color: #fff;
+    text-decoration: underline;
+    margin: 20px auto;
+    display: block;
+}
+
+.submitForm.modal p {
+    margin-bottom: 0;
+}
+
+.submitForm.modal .forminput input, 
+.submitForm.modal .forminput select {
+  background-color: #fff;
+}
+
+.submitForm-text {
+    margin: 1em auto;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    line-height: 1.1;
+}
+
+.submitForm.modal .contentButton {
+    max-width: none;
+}
+
+/* Submit Message Modal */
+.submitMessage .modal-content {
+    border-radius: 20px;
+    padding: 5px;
+    background: rgb(243,233,196);
+    background: linear-gradient(180deg, rgba(243,233,196,1) 0%, rgba(96,80,37,1) 100%);
+    box-shadow: 1px 1px 20px #f9efa7;
+}
+
+.submitMessage .modal-content .modal-body {
+    background-color: #000;
+    border-radius: 15px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitMessage .modal-content .modal-body span {
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 1em 0;
+    color: #ffd485;
+    text-transform: uppercase;
+    font-family: var(--secondary-font-family);
+}
+
+
+
+
+@media screen and (max-width: 320px) {
+    .nba-prediction .textBanner img {
+        width: 100%;
+    }
+
+    .nba-prediction .textBanner p {
+        width: 85%;
+    }
+
+    .nba-prediction .buttonBanner {
+        padding: 0px;
+        margin: 10px auto;
+    }
+
+    .nba-prediction .store {
+        padding: 90px 10px 0;
+    }
+
+    .nba-prediction .store .cascade-slider_container {
+        height: 190px;
+    }
+
+    .nba-prediction .weekly {
+        margin: -110px auto 0;
+    }
+
+    
+    .nba-prediction .weekly .carousel-item .table-wrapper .table-header > div:nth-child(1), 
+    .nba-prediction .weekly .carousel-item .table-wrapper .table-data > div:nth-child(1) {
+        width: 20%;
+    }
+
+    .nba-prediction .weekly .carousel-item .table-wrapper .table-header > div:nth-child(2), 
+    .nba-prediction .weekly .carousel-item .table-wrapper .table-data > div:nth-child(2) {
+        width: 53%;
+    }
+
+    .nba-prediction .weekly .item .tableButtons {
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    .nba-prediction .stepBox {
+        margin: -180px 0 0 0;
+    }
+
+    .nba-prediction .store {
+        margin: -60px 0 0;
+        padding: 150px 10px 190px;
+    }
+
+    .nba-prediction .store .design-bg {
+        width: 110px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .nba-prediction .mainBanner {
+        padding: 10px 0 220px;
+    }
+
+    .nba-prediction .textBanner p {
+        font-size: 0.9rem;
+    }
+
+    .nba-prediction .buttonBanner {
+        padding: 20px 10px;
+    }
+
+    .nba-prediction .buttonBanner a.contentButton {
+        font-size: 0.9rem;
+        max-width: 130px;
+    }
+
+    .nba-prediction .stepBox {
+        margin: -230px 0 0 0;
+    }
+
+    .nba-prediction .store {
+        margin: -90px 0 0;
+        padding: 170px 10px 260px;
+    }
+
+    .nba-prediction .store .cascade-slider_container {
+        margin: 40px auto 0px;
+    }
+
+    .nba-prediction .store .design-bg {
+        width: 130px;
+        bottom: 40px;
+    }
+
+    .nba-prediction .weekly {
+        margin: -100px auto 0;
+    }
+
+    .nba-prediction .weekly .item > a {
+        background-size: 80%;
+    }
+
+    .nba-prediction .weekly .carousel-control-prev, 
+    .nba-prediction .weekly .carousel-control-next {
+        top: 12px;
+    }
+
+    .nba-prediction .weekly .carousel-control-prev {
+        left: 30px;
+    }
+
+    .nba-prediction .weekly .carousel-control-next {
+        right: 30px;
+    }
+
+    .nba-prediction .weekly .carousel-control-prev-icon, 
+    .nba-prediction .weekly .carousel-control-next-icon {
+        width: 55px;
+        height: 55px;
+    }
+
+    .nba-prediction .weekly .carousel-item .table-wrapper .table-data .match-content {
+        font-size: 0.7rem;
+    }
+
+    .nba-prediction .weekly .carousel-item .table-wrapper .table-data .match-content .match-radio img {
+        width: 35px;
+    }
+
+    .nba-prediction .weekly .carousel-item .table-wrapper .table-data select {
+        font-size: 0.8rem;
+    }
+
+    .nba-prediction .weekly .item .tableButtons a {
+        margin: 0 10px;
+        max-width: 200px;
+        font-size: 1rem;
+    }
+
+    .nba-prediction .sliderTNC {
+        padding: 20px 0;
+    }
+
+    .nba-prediction .sliderTNC .cascade-slider_container {
+        height: 427px;
+    }
+}
+
+@media screen and (min-width: 575px) {
+    .nba-prediction .mainBanner {
+        padding: 10px 0 260px;
+    }
+
+    .nba-prediction .textBanner p:nth-child(2) {
+        font-size: 0.9rem;
+    }
+
+    .nba-prediction .textBanner p:nth-child(3) {
+        font-size: 1rem;
+
+    }
+
+    .nba-prediction .textBanner p {
+        width: 100%;
+    }
+
+    .nba-prediction .buttonBanner a.contentButton {
+        font-size: 1rem;
+        max-width: 160px;
+    }
+
+    .nba-prediction .stepBox > img {
+        width: 50%;
+    }
+
+    .nba-prediction .carousel-control-next, 
+    .nba-prediction .carousel-control-prev {
+        top: -70px;
+    }
+
+    .nba-prediction .carousel-control-prev {
+        left: 60px;
+    }
+
+    .nba-prediction .carousel-control-next {
+        right: 60px;
+    }
+
+    .nba-prediction .store {
+        margin: -100px 0 0;
+        padding: 200px 10px 260px;
+        background-size: 100% 130%;
+    }
+
+    .nba-prediction .store .cascade-slider_arrow-left {
+        left: 60px;
+    }
+
+    .nba-prediction .store .cascade-slider_arrow-right {
+        right: 60px;
+    }
+
+    .nba-prediction .mainContent section.weekly {
+        margin-top: -80px;
+    }
+
+    .nba-prediction .weekly .item > a {
+        background-size: 75%;
+        height: 90px;
+    }
+
+    .nba-prediction .weekly .carousel-control-prev, 
+    .nba-prediction .weekly .carousel-control-next {
+        top: 17px;
+    }
+
+    .nba-prediction .weekly .carousel-control-prev {
+        left: 60px;
+    }
+
+    .nba-prediction .weekly .carousel-control-next {
+        right: 60px;
+    }
+
+    .nba-prediction .weekly .item .carousel-content {
+        padding: 20px 0px 0;
+    }
+
+    .nba-prediction .weekly .carousel-item .table-wrapper .table-header {
+        font-size: 0.9rem;
+    }
+
+    .nba-prediction .table-wrapper > div.scroll {
+        font-size: 0.8rem;
+    }
+
+    .nba-prediction .weekly .carousel-item .table-wrapper .table-data .match-content .match-radio:nth-child(1) label {
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    .nba-prediction .weekly .carousel-item .table-wrapper .table-data .match-content .match-radio:nth-child(2) label {
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    .nba-prediction .weekly .carousel-item .table-wrapper .table-data .match-content {
+        font-size: 0.8rem;
+    }
+
+    .nba-prediction .weekly .carousel-item .table-wrapper .table-data .match-content .match-radio img {
+        width: 50px;
+    }
+
+    .nba-prediction .sliderTNC .cascade-slider_container {
+        width: 60%;
+        height: 512px;
+    }
+
+    .nba-prediction .sliderTNC .cascade-slider_container .design-bg {
+        width: 200px;
+        right: -180px;
+        top: 80px;
+    }
+
+    .nba-prediction .sliderTNC .tncSection {
+        padding: 10px 0;
+    }
+
+    .nba-prediction .sliderTNC .tncSection .tnc {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .submitForm.modal .formButton {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .nba-prediction .mainBanner {
+        background-image: url(../../images/common/main-banner-bg-desktop.png);
+        background-size: 140%;
+        background-position: center top;
+        padding: 0px 0 260px;
+    }
+
+    .nba-prediction .textBanner img {
+        width: 70%;
+    }
+
+    .nba-prediction .textBanner p:nth-child(2) {
+        font-size: 1rem;
+    }
+
+    .nba-prediction .textBanner p:nth-child(3) {
+        font-size: 1.2rem;
+    }
+
+    .nba-prediction .buttonBanner {
+        justify-content: center;
+    }
+
+    .nba-prediction .buttonBanner a.contentButton {
+        font-size: 1em;
+    }
+
+    .nba-prediction .carousel-control-prev {
+        left: 130px;
+    }
+
+    .nba-prediction .carousel-control-next {
+        right: 130px;
+    }
+
+    .nba-prediction .store h2 {
+        font-size: 2rem;
+    }
+
+    .nba-prediction .store h1 {
+        font-size: 2.1rem;
+    }
+
+    .nba-prediction .store .cascade-slider_arrow-left {
+        left: 130px;
+    }
+
+    .nba-prediction .store .cascade-slider_arrow-right {
+        right: 130px;
+    }
+
+    .nba-prediction .store .cascade-slider_container {
+        margin: 40px auto 30px;
+    }
+
+    .nba-prediction .store .cascade-slider_item2 img {
+        width: 70%;
+    }
+
+    .nba-prediction .store .default-btn {
+        max-width: 230px;
+    }
+
+    .nba-prediction .store .design-bg {
+        width: 190px;
+        bottom: -80px;
+        left: -90px;
+    }
+
+    .nba-prediction .weekly .item > a {
+        background-size: 60%;
+    }
+
+    .nba-prediction .weekly .carousel-control-prev {
+        left: 130px;
+    }
+
+    .nba-prediction .weekly .carousel-control-next {
+        right: 130px;
+    }
+
+    .nba-prediction .table-wrapper > div.scroll {
+        font-size: 1rem;
+    }
+
+    .nba-prediction .weekly .carousel-item .table-wrapper {
+        width: 90%;
+        box-shadow: 0px 0px 30px #ffeeae;
+    }
+
+    .nba-prediction .weekly .carousel-item .table-wrapper .table-header {
+        font-size: 1rem;
+    }
+
+    .nba-prediction .weekly .carousel-item .table-wrapper .table-data select {
+        font-size: 1rem;
+    }
+
+    .nba-prediction .weekly .carousel-item .table-wrapper .table-data .match-content {
+        font-size: 1rem;
+    }
+    
+    .nba-prediction .weekly .carousel-item .table-wrapper .table-header > div:nth-child(3), 
+    .nba-prediction .weekly .carousel-item .table-wrapper .table-data > div:nth-child(3) {
+        padding: 0 15px;
+    }
+
+    .nba-prediction .weekly .carousel-item .table-wrapper .table-data .match-content .match-radio img {
+        width: 55px;
+    }
+
+    .nba-prediction .weekly .item .tableButtons {
+        margin: 40px auto 0;
+    }
+
+    .nba-prediction .weekly .item .tableButtons a {
+        font-size: 1em;
+        max-width: 250px;
+    }
+
+    .nba-prediction .sliderTNC {
+        padding: 20px 0 0;
+        background-position: center -174px;
+    }
+
+    .nba-prediction .sliderTNC .cascade-slider_arrow-left {
+        left: -60px;
+    }
+
+    .nba-prediction .sliderTNC .cascade-slider_arrow-right {
+        right: -60px;
+    }
+
+    .nba-prediction .sliderTNC .cascade-slider_container .design-bg {
+        width: 260px;
+        right: -250px;
+        top: 40px;
+    }
+
+    .nba-prediction .sliderTNC .tncSection .tnc {
+        width: 100%;
+    }
+
+    .submitForm.modal .formButton {
+        max-width: 250px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .nba-prediction .mainBanner {
+        background-size: 120%;
+    }
+
+    .nba-prediction .textBanner img {
+        width: 53%;
+    }
+
+    .nba-prediction .textBanner p:nth-child(2) {
+        font-size: 1.3rem;
+    }
+
+    .nba-prediction .textBanner p:nth-child(3) {
+        font-size: 1.5rem;
+    }
+
+    .nba-prediction .stepBox .stepsTitle-mobile {
+        display: none;
+    }
+
+    .nba-prediction .stepBox .stepsTitle-desktop {
+        display: block;
+    }
+
+    .nba-prediction .stepBox > img {
+        width: 40%;
+        display: block;
+        margin: 0 0 0 110px;
+    }
+
+    .nba-prediction .stepBox .stepsWrapper {
+        display: flex;
+        width: 80%;
+    }
+
+    .nba-prediction .stepBox .stepBox-icons-slider {
+        display: none;
+    }
+
+    .nba-prediction .stepBox .steps-bg-desktop {
+        display: block;
+        margin: 0;
+        top: -44px;
+        position: absolute;
+        z-index: -1;
+        opacity: 0.4;
+        left: -100px;
+        width: 44%;
+    }
+
+    .nba-prediction .store {
+        background-image: url(../../images/common/12store-bg-desktop.png);
+        background-size: 100%;
+        height: 1500px;
+        padding: 250px 10px 0;
+    }
+
+    .nba-prediction .store .cascade-slider_container {
+        margin: 80px auto 60px;
+    }
+
+    .nba-prediction .store .cascade-slider_item2 img {
+        width: 60%;
+    }
+
+    .nba-prediction .store .cascade-slider_arrow-left {
+        left: 230px;
+    }
+
+    .nba-prediction .store .cascade-slider_arrow-right {
+        right: 230px;
+    }
+
+    .nba-prediction .store .cascade-slider_arrow-left img, 
+    .nba-prediction .store .cascade-slider_arrow-right img {
+        width: 75px;
+    }
+
+    .nba-prediction .store .design-bg {
+        width: 150px;
+        bottom: 190px;
+        left: 80px;
+    }
+
+    .nba-prediction .mainContent section.weekly {
+        margin-top: -630px;
+    }
+
+    .nba-prediction .weekly .item > a {
+        background-size: 45%;
+    }
+
+    .nba-prediction .weekly .carousel-control-prev-icon, 
+    .nba-prediction .weekly .carousel-control-next-icon {
+        width: 75px;
+        height: 75px;
+    }
+
+    .nba-prediction .weekly .carousel-control-prev, 
+    .nba-prediction .weekly .carousel-control-next {
+        top: 7px;
+    }
+
+    .nba-prediction .weekly .carousel-control-prev {
+        left: 220px;
+    }
+
+    .nba-prediction .weekly .carousel-control-next {
+        right: 220px;
+    }
+
+    .nba-prediction .weekly .carousel-item .table-wrapper {
+        width: 70%;
+    }
+
+    .nba-prediction .weekly .coming-soon-wrap {
+        height: 670px;
+        width: 694px;
+    }
+
+    .nba-prediction .table-wrapper > div.scroll {
+        height: 605px;
+    }
+
+    .nba-prediction .weekly img.weekly-bg-player1 {
+        display: block;
+        position: absolute;
+        top: -313px;
+        right: 0;
+        z-index: -1;
+        width: 270px;
+        opacity: 0.7;
+    }
+
+    .nba-prediction .weekly img.weekly-bg-player2 {
+        display: block;
+        position: absolute;
+        bottom: -140px;
+        right: 0;
+        z-index: -1;
+        width: 380px;
+        opacity: 0.4;
+    }
+
+    .nba-prediction .weekly img.weekly-bg-player3 {
+        display: block;
+        position: absolute;
+        bottom: -540px;
+        width: 330px;
+        opacity: 0.4;
+        z-index: -1;
+    }
+
+    .nba-prediction .sliderTNC .cascade-slider_container .design-bg {
+        width: 280px;
+        right: -360px;
+        top: -100px;
+    }
+
+    .nba-prediction .sliderTNC .cascade-slider_container {
+        width: 40%;
+    }
+
+    .nba-prediction .sliderTNC .cascade-slider_item.next {
+        transform: translateY(-50%) translateX(-125%) scale(1);
+
+    }
+
+    .nba-prediction .sliderTNC .cascade-slider_item.prev {
+        transform: translateY(-50%) translateX(25%) scale(1);
+    }
+
+    .nba-prediction .sliderTNC {
+        background-image: url(../../images/common/tnc-bg-desktop.png);
+        background-position: center -110px;
+        padding: 20px 0 10px;
+    }
+
+    .nba-prediction .sliderTNC .cascade-slider_arrow-left {
+        left: -140px;
+    }
+
+    .nba-prediction .sliderTNC .cascade-slider_arrow-right {
+        right: -140px;
+    }
+
+    .nba-prediction .sliderTNC .cascade-slider_arrow-left img, 
+    .nba-prediction .sliderTNC .cascade-slider_arrow-right img {
+        width: 40px;
+    }
+
+    .nba-prediction .sliderTNC .tncSection {
+        background-image: none;
+        padding: 30px 0 0;
+    }
+
+    .nba-prediction .sliderTNC .tncSection .tnc-btn {
+        padding: 0px 0 10px;
+    }
+
+    .nba-prediction .sliderTNC .tncSection ol {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .nba-prediction .textBanner img {
+        width: 55%;
+    }
+
+    .nba-prediction .weekly img.weekly-bg-player1 {
+        top: -300px;
+    }
+
+    .nba-prediction .weekly img.weekly-bg-player2 {
+        width: 450px;
+        right: -40px;
+    }
+
+    .nba-prediction .weekly img.weekly-bg-player3 {
+        bottom: -573px;
+        width: 380px;
+    }
+
+    .nba-prediction .sliderTNC .tncSection {
+        width: 88%;
+    }
+
+    .nba-prediction .sliderTNC .tncSection ol {
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .nba-prediction .mainBanner {
+        background-size: 100%;
+        padding: 0px 0 370px;
+    }
+
+    .nba-prediction .textBanner {
+        width: 55%;
+        padding-left: 70px;
+        margin-left: 50px;
+    }
+
+    .nba-prediction .textBanner img {
+        width: 60%;
+    }
+
+    .nba-prediction .stepBox {
+        margin: -390px 0 0 0;
+    }
+
+    .nba-prediction .stepBox > img {
+        width: 35%;
+        margin: 0 0 0 180px;
+    }
+
+    .nba-prediction .stepBox img.stepImages {
+        max-width: 280px;
+    }
+
+    .nba-prediction .stepBox .stepsWrapper > div:nth-child(3) img.stepImages {
+        max-width: 320px;
+        margin-top: -41px;
+    }
+
+    .nba-prediction .stepBox .steps-bg-desktop {
+        top: -40px;
+        left: -50px;
+        width: 41%;
+    }
+
+    .nba-prediction .store {
+        margin: -230px 0 0;
+    }
+
+    .nba-prediction .store .cascade-slider_arrow-left {
+        left: 310px;
+    }
+
+    .nba-prediction .store .cascade-slider_arrow-right {
+        right: 310px;
+    }
+
+    .nba-prediction .weekly .item > a {
+        background-size: 37%;
+    }
+
+    .nba-prediction .weekly .carousel-control-prev {
+        left: 300px;
+    }
+
+    .nba-prediction .weekly .carousel-control-next {
+        right: 300px;
+    }
+
+    .nba-prediction .weekly .carousel-item .table-wrapper {
+        width: 60%;
+    }
+
+    .nba-prediction .store {
+        height: 1680px;
+        padding: 310px 10px 0;
+    }
+
+    .nba-prediction .store .design-bg {
+        bottom: 130px;
+        left: 110px;
+    }
+
+    .nba-prediction .mainContent section.weekly {
+        margin-top: -700px;
+    }
+
+    .nba-prediction .weekly .coming-soon-wrap {
+        height: 820px;
+    }
+
+    .nba-prediction .table-wrapper > div.scroll {
+        height: 755px;
+    }
+
+    .nba-prediction .weekly img.weekly-bg-player3 {
+        bottom: -692px;
+    }
+
+    .nba-prediction .sliderTNC {
+        padding: 20px 0 35px;
+        z-index: 2;
+        position: relative;
+    }
+
+    .nba-prediction .sliderTNC .cascade-slider_container {
+        width: 30%;
+    }
+
+    .nba-prediction .sliderTNC .tncSection {
+        width: 88%;
+    }
+
+    .nba-prediction .sliderTNC .tncSection .tnc-btn {
+        padding: 0px 0 70px;
+    }
+
+    .nba-prediction .sliderTNC .tncSection ol {
+        width: 85%;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .nba-prediction .buttonBanner a.contentButton {
+        max-width: 230px;
+    }
+
+    .nba-prediction .stepBox .steps-bg-desktop {
+        top: 100px;
+        left: -80px;
+        width: 35%;
+    }
+
+    .nba-prediction .store {
+        height: 1920px;
+        padding: 350px 10px 0;
+    }
+
+    .nba-prediction .store .cascade-slider_item2 img {
+        width: 50%;
+    }
+
+    .nba-prediction .store .cascade-slider_arrow-left {
+        left: 360px;
+    }
+
+    .nba-prediction .store .cascade-slider_arrow-right {
+        right: 360px;
+    }
+
+    .nba-prediction .store .cascade-slider_container {
+        margin: 120px auto 20px;
+    }
+
+    .nba-prediction .sliderTNC .cascade-slider_container .design-bg {
+        width: 300px;
+        right: -430px;
+        top: -150px;
+    }
+
+    .nba-prediction .store .design-bg {
+        bottom: 180px;
+        left: 130px;
+    }
+
+    .nba-prediction .mainContent section.weekly {
+        margin-top: -840px;
+        z-index: 6;
+        position: relative;
+    }
+
+    .nba-prediction .weekly .item > a {
+        height: 110px;
+    }
+
+    .nba-prediction .weekly .carousel-control-prev, 
+    .nba-prediction .weekly .carousel-control-next {
+        top: 17px;
+    }
+
+    .nba-prediction .weekly .carousel-control-prev {
+        left: 350px;
+    }
+
+    .nba-prediction .weekly .carousel-control-next {
+        right: 350px;
+    }
+
+    .nba-prediction .weekly .carousel-item .table-wrapper {
+        width: 50%;
+    }
+
+    .nba-prediction .weekly img.weekly-bg-player2 {
+        bottom: 0px;
+    }
+
+    .nba-prediction .weekly img.weekly-bg-player3 {
+        bottom: -532px;
+        width: 340px;
+    }
+
+    .nba-prediction .sliderTNC {
+        margin-top: -260px;
+        padding: 280px 0 35px;
+        z-index: 5;
+    }
+
+    .nba-prediction .sliderTNC .cascade-slider_container {
+        width: 30%;
+    }
+
+    .nba-prediction .sliderTNC .tncSection .tnc-btn {
+        padding: 0px 0 0px;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .nba-prediction .textBanner p:nth-child(2) {
+        font-size: 1.3rem;
+    }
+
+    .nba-prediction .textBanner p:nth-child(3) {
+        font-size: 1.5rem;
+    }
+
+    .nba-prediction .stepBox > img {
+        width: 30%;
+        margin: 0 0 0 280px;
+    }
+
+    .nba-prediction .stepBox .stepsWrapper {
+        max-width: 1000px;
+    }
+
+    .nba-prediction .stepBox .stepsWrapper > div:nth-child(3) img.stepImages {
+        margin-top: -41px;
+    }
+    
+    .nba-prediction .stepBox .steps-bg-desktop {
+        top: 70px;
+    }
+
+    .nba-prediction .store {
+        height: 2030px;
+    }
+
+    .nba-prediction .store .design-bg {
+        bottom: 210px;
+        left: 150px;
+    }
+
+    .nba-prediction .weekly .carousel-item .table-wrapper .table-header {
+        font-size: 1.1rem;
+    }
+
+    .nba-prediction .weekly img.weekly-bg-player1 {
+        top: -363px;
+    }
+
+    .nba-prediction .weekly img.weekly-bg-player3 {
+        bottom: -532px;
+    }
+
+    .nba-prediction .sliderTNC {
+        padding: 320px 0 35px;
+        margin-top: -304px;
+    }
+
+    .nba-prediction .sliderTNC .cascade-slider_container {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .nba-prediction .textBanner {
+        margin-left: 120px;
+    }
+
+    .nba-prediction .textBanner p:nth-child(2) {
+        font-size: 1.6rem;
+    }
+
+    .nba-prediction .textBanner p:nth-child(3) {
+        font-size: 2rem;
+    }
+
+    .nba-prediction .stepBox .stepsTitle-desktop {
+        width: 27%;
+        margin: 0 0 0 380px;
+    }
+
+    .nba-prediction .store {
+        height: 2350px;
+        padding: 410px 10px 0;
+    }
+
+    .nba-prediction .store h2 {
+        font-size: 2.3rem;
+    }
+
+    .nba-prediction .store h1 {
+        font-size: 2.5rem;
+    }
+
+    .nba-prediction .store .cascade-slider_item2 img {
+        width: 35%;
+    }
+
+    .nba-prediction .store .cascade-slider_item2.prev {
+        transform: translateY(-50%) translateX(-25%) scale(1);
+    }
+
+    .nba-prediction .store .cascade-slider_item2.next {
+        transform: translateY(-50%) translateX(-75%) scale(1);
+    }
+
+    .nba-prediction .store .cascade-slider_arrow-left {
+        left: 480px;
+    }
+
+    .nba-prediction .store .cascade-slider_arrow-right {
+        right: 480px;
+    }
+
+    .nba-prediction .store .cascade-slider_item2.now {
+        transform: translateY(-50%) translateX(-50%) scale(2);
+    }
+
+    .nba-prediction .store .design-bg {
+        bottom: 340px;
+        left: 160px;
+    }
+
+    .nba-prediction .mainContent section.weekly {
+        margin-top: -1280px;
+        
+    }
+
+    .nba-prediction .weekly .item > a {
+        background-size: 30%;
+    }
+
+    .nba-prediction .weekly .item a span.weeks-text:nth-child(1) {
+        font-size: 2rem;
+    }
+
+    .nba-prediction .weekly .carousel-control-prev {
+        left: 450px;
+    }
+
+    .nba-prediction .weekly .carousel-control-next {
+        right: 450px;
+    }    
+
+    .nba-prediction .weekly .coming-soon-wrap {
+        width: 800px;
+    }
+
+    .nba-prediction .weekly img.weekly-bg-player1 {
+        top: -133px;
+    }
+
+    .nba-prediction .weekly img.weekly-bg-player2 {
+        bottom: 190px;
+    }
+
+    .nba-prediction .weekly img.weekly-bg-player3 {
+        bottom: -492px;
+    }
+
+    .nba-prediction .sliderTNC {
+        padding: 460px 0 35px;
+        margin-top: -454px;
+    }
+}
+
+@media screen and (min-width: 1680px) {
+    .nba-prediction .store .design-bg {
+        bottom: 240px;
+        left: 180px;
+    }
+
+    .nba-prediction .weekly img.weekly-bg-player1 {
+        top: -83px;
+    }
+   
+}
+
+@media screen and (min-width: 1920px) {
+    .nba-prediction .textBanner p:nth-child(2) {
+        font-size: 1.9rem;
+    }
+
+    .nba-prediction .textBanner p:nth-child(3) {
+        font-size: 2.5rem;
+    }
+
+    .nba-prediction .buttonBanner a.contentButton {
+        max-width: 190px;
+        padding: 10px;
+    }
+    
+    .nba-prediction .mainContent .stepBox {
+        padding: 100px 0 0;
+    } 
+
+    .nba-prediction .stepBox .stepsTitle-desktop {
+        width: 25%;
+        margin: 0 0 0 490px;
+    }
+
+    .nba-prediction .stepBox .stepsWrapper {
+        max-width: 1120px;
+    }
+
+    .nba-prediction .stepBox img.stepImages {
+        max-width: 320px;
+    }
+
+    .nba-prediction .stepBox .stepsWrapper > div:nth-child(3) img.stepImages {
+        max-width: 350px;
+        margin-top: -35px;
+    }
+
+    .nba-prediction .store {
+        margin: -290px 0 0;
+        padding: 500px 10px 0;
+        height: 2700px;
+    }
+
+    .nba-prediction .store .cascade-slider_container {
+        height: 390px;
+    }
+
+    .nba-prediction .store .cascade-slider_arrow-left {
+        left: 640px;
+    }
+
+    .nba-prediction .store .cascade-slider_arrow-right {
+        right: 640px;
+    }
+
+    .nba-prediction .store .design-bg {
+        bottom: 290px;
+        left: 200px;
+        width: 200px;
+    }
+
+    .nba-prediction .mainContent section.weekly {
+        margin-top: -1370px;
+    }
+
+    .nba-prediction .weekly .carousel-control-prev {
+        left: 560px;
+    }
+
+    .nba-prediction .weekly .carousel-control-next {
+        right: 560px;
+    }
+
+    .nba-prediction .weekly .coming-soon-wrap {
+        width: 865px;
+    }
+
+    .nba-prediction .weekly .carousel-item .table-wrapper {
+        width: 45%;
+    }
+
+    .nba-prediction .weekly .carousel-item .table-wrapper .table-header {
+        font-size: 1.3rem;
+    }
+
+    .nba-prediction .weekly .carousel-item .table-wrapper .table-data .match-content {
+        font-size: 1.1rem;
+    }
+
+    .nba-prediction .weekly img.weekly-bg-player1 {
+        top: -223px;
+        width: 480px;
+    }
+
+    .nba-prediction .weekly img.weekly-bg-player2 {
+        bottom: 120px;
+        width: 450px;
+        right: 0;
+    }
+
+    .nba-prediction .weekly img.weekly-bg-player3 {
+        bottom: -702px;
+        width: 380px;
+    }
+
+    .nba-prediction .sliderTNC {
+        margin-top: -454px;
+    }
+
+    .nba-prediction .sliderTNC .tncSection {
+        padding: 190px 0 0;
+    }
+
+    .nba-prediction .sliderTNC .cascade-slider_nav {
+        bottom: -50px;
+    }
+
+    .nba-prediction .sliderTNC .cascade-slider_container {
+        width: 23%;
+        height: 442px;
+        margin-top: 40px;
+    }
+
+    .nba-prediction .sliderTNC .cascade-slider_container .design-bg {
+        width: 330px;
+        right: -570px;
+        top: -200px;
+    }
+}

@@ -1,0 +1,411 @@
+@media screen and (max-width: 320px) {
+  
+  /*Common*/
+  .sectionTitle {
+    font-size: 23px;
+  }
+
+  .default-btn {
+    font-size: 13px;
+  }
+
+  /* Select Teams */
+  .select-team-group {
+    font-size: 12px;
+  }  
+
+  /* Weekly Tabs */
+  .weekly .owl-carousel .owl-item a {
+    font-size: 13px;
+  }
+
+  /* Prizes Table */
+  .contestPrizes table {
+    border-spacing: 3px;
+  }
+
+  .contestPrizes table tr th {
+    font-size: 13px;
+  }
+
+  .contestPrizes table tr td {
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .sectionTitle {
+      font-size: 1.5rem;
+ }
+ .mainContent ol , .mainContent ul {
+      padding-left: 20px;
+ }
+}
+@media screen and (max-width: 350px) {
+  .sectionTitle {
+      font-size: 1.2rem;
+ }
+}
+
+@media screen and (min-width: 411px) {
+
+  /* Weekly Tabs */
+  .weekly .owl-carousel .owl-item a {
+    padding: 5px 10px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+
+  /*Common*/
+  .default-btn {
+    max-width: 215px;
+  }
+  
+  /* Banner Section*/
+  .textBanner p {
+    font-size: 1.3em;
+  }
+
+  /* Weekly Tabs */
+  .weekly .owl-carousel .weeks a {
+    font-size: 16px;
+    padding: 6px;
+  }
+
+  /*TNC*/
+  .tncSection ol {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 575px) {
+
+  /*Weekly Section*/
+  .mainContent section.weekly {
+    margin-top: 50px;
+  }
+
+  .mainContent section.weekly .weekly-wrapper {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /*Common*/
+  .default-btn {
+    font-size: 1em;
+    max-width: 280px;
+    margin: 10px;
+  }
+
+  .sectionTitle {
+    font-size: 30px;
+  }
+  
+  /* Banner Section*/
+  .imageBanner img {
+    max-width: 700px;
+  } 
+
+  .textBanner p {
+    font-size: 1.5em;
+  }
+
+  /* Steps Section */
+  .mainContent .stepBox {
+    padding: 0;
+  }
+
+  .stepBox .stepsWrapper {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  } 
+  
+  .stepBox .stepBox-icons-slider {
+      display: none;
+  }
+
+  /*Weekly Section*/
+  .mainContent section.weekly {
+    margin-top: 0;
+  }
+
+  .mainContent section.weekly .weekly-wrapper {
+    max-width: 580px;
+  }
+
+  /* Weekly Tabs */
+  .weekly .owl-carousel .owl-item {
+    font-size: 20px;
+  }
+
+  /* Timer */
+  .time {
+    max-width: 720px;
+    width: 80%;
+  }
+
+  .time-desc {
+    width: 33%;
+    font-size: 14px;
+  }
+
+  .timeTo {
+    width: 50%;
+  }
+
+  /* Select Teams */
+  .select-teams-bg {
+    font-size: 16px;
+  }
+
+  .select-groupStace .title {
+    font-size: 1.2em;
+  }
+
+  .selectTeam-3rdNcopa > div {
+    width: 48%;
+  }
+
+  /* Form Section */
+  .formsection form {
+    max-width: 630px;
+  }
+
+  .formLabel {
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+  }
+
+  .forminput {
+    width: 50%;
+  }
+
+  .forminput input::placeholder {
+    visibility: hidden;
+  }
+
+  .forminput input, 
+  .forminput select {
+    margin: 0;
+  }
+  .modal-header {
+    margin: 4px 4px;
+  }
+  .modal-dialog .close {
+    top: 4px;
+    right: 20px;
+}
+
+  /* How To List */
+  .howTo .howTo-wrapper {
+    max-width: 580px;
+    margin: 0 auto;
+  }
+
+  /* Prizes Table */
+  .contestPrizes table tr td:nth-child(1), 
+  .contestPrizes table tr td:nth-child(3) {
+    font-size: 22px;
+  }
+
+  .contestPrizes table tr td {
+    font-size: 16px;
+  }
+
+  /*TNC*/
+  .tncSection ol {
+    width: 85%;
+  }
+
+  /* Modal Form */
+  .submitForm.modal .modal-dialog {
+    max-width: 600px;
+  }
+}
+
+@media screen and (min-width: 991px) {
+
+  /*Common*/
+  .sectionTitle {
+    font-size: 2.5rem;
+  }
+
+  /* Steps Section */
+  .stepBox .stepsWrapper {
+      width: 65%;
+  }  
+
+  /* Weekly Tabs */
+  .weekly .owl-carousel .owl-item a {
+    padding: 5px 20px;
+    font-size: 20px;
+  }
+
+  /* Prizes Table */
+  .contestPrizes table {
+    width: 75%;
+  }
+   
+}
+
+@media screen and (min-width: 1024px) {
+
+  /*Common, TNC*/
+  body, .tncSection ol {
+    font-size: 18px;
+  }
+
+  /* Weekly Section */
+  .mainContent section.weekly .weekly-wrapper {
+    max-width: 700px;
+  }
+
+  /* Weekly Tabs */
+  .weekly .owl-carousel {
+    max-width: 650px;
+  }
+ 
+  /* Modal Form */
+  .submitForm.modal .modal-dialog {
+    max-width: 650px;
+  }
+  .submitForm.modal .sumitForm-text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  /* Steps Section */
+  .mainContent .stepBox {
+    padding: 50px 0;
+  }
+
+  /* Weekly Tabs */
+  .weekly .owl-carousel {
+    max-width: 800px;
+  }
+
+  .weekly .owl-carousel .owl-item a {
+    display: block;
+    width: 90%;
+    padding: 6px 12px;
+  }
+
+  /* Timer */
+  .time {
+    max-width: 572px;
+  }
+
+  /* Form section */
+  .forminput input,
+  .forminput img {
+    margin-left: 0;
+  }
+  .modal-header {
+    margin: 5px 6px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+  }
+
+  /* Select Teams */
+  .select-teams-wrap .container {
+    max-width: 1000px;
+  }
+
+  .select-teams-bg {
+    font-size: 19px;
+  }
+
+  .select-teams-bg .title {
+    font-size: 1.6em;
+  }
+
+}
+
+@media screen and (min-width: 1366px) {
+
+  /*Common, Steps Section, Modal Form */
+  body, .stepBox p,
+  .submitForm.modal .modal-content {
+    font-size: 20px;
+  }
+
+  /* Weekly Section */
+  .mainContent section.weekly .weekly-wrapper {
+    max-width: 65%;
+  }
+  .mainContent section.weekly .weeklyTabContent {
+    width: 85%;
+    margin: auto;
+  }
+
+  /* Timer */
+  .time {
+    width: 100%;
+    max-width: none;
+  }
+
+  .time-desc {
+    font-size: 16px;
+    width: 50%;
+    justify-content: center;
+  }
+
+  .timeTo figure {
+    margin: 5px 0.6em;
+  }
+
+  /* Prizes Table */
+  .contestPrizes table {
+    max-width: 696px;
+  }
+
+  /* Modal Form */
+  .submitForm.modal .modal-dialog {
+    max-width: 550px;
+  }
+  .submitForm.modal .sumitForm-text {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+
+  /*Common, Steps Section */
+  body, .stepBox p  {
+    font-size: 22px;
+  }
+
+  /* Steps Section */
+  .stepBox .stepsWrapper {
+      max-width: 900px;
+  }
+
+  /* Weekly Tabs */
+  .weekly .owl-carousel {
+    max-width: 100%;
+  }
+
+  /* Timer */
+  .time-desc {
+    font-size: 20px;
+  }
+
+  /* Form Section */
+  .formsection form {
+    max-width: 700px;
+  } 
+}
+
+@media screen and (min-width: 1680px) {
+  .modal-header {
+    margin: 10px 10px;
+  }
+}

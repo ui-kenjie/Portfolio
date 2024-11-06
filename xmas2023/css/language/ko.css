@@ -1,0 +1,13 @@
+body {
+    font-family: 'Malgun Gothic'
+}
+:root {
+    --main-font-family: 'Malgun Gothic'; /* REGULAR FONT  (Google font) */
+    --main-button-font-family: 'Malgun Gothic'; /* MEDIUM FONT (Google font) */
+    --secondary-font-family: 'Malgun Gothic'; /* BOLDER FONT (Google font) */
+}
+
+.sectionTitle,
+h1, h2, h3, h4 ,h5 ,h6 {
+    font-weight: bold;
+}

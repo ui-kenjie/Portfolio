@@ -1,0 +1,924 @@
+/* Banner Section*/
+.mainContent.halloween23 {
+    background-position: center top;
+    background: url(../../images/common/mobile-bg.jpg);
+    background-size: cover;
+}
+* img {
+    user-select: none;
+    pointer-events: none;
+}
+.sectionTitle.highlight {
+    color: var(--main-notice-color);
+    z-index: 99;
+    position: relative;
+}
+.mainContent .mainBanner {
+    text-align: center;
+    background-position: center;
+    background-image: url(../../images/common/banner-bg.png);
+    background-position: center 10%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.mainBanner > div {
+    max-width: 350px;
+    width: 95%;
+}
+.imageBanner > img {
+    padding-right: 15px;
+}
+.halloween-party {
+    width: 52%;
+}
+.textBanner {
+    margin-top: -100px;
+}
+.imageBanner, 
+.buttonBanner {
+    padding: 20px 0;
+}
+.textBanner p {
+  font-size: 0.9em;
+  margin: 0;
+}
+.textBanner small {
+    font-size: 0.8em;
+    margin: 0;
+  }
+.textBanner h1 {
+    font-size: 1.15em;
+    font-family: var(--secondary-font-family);
+}
+.default-btn {
+    border-radius: 50px;
+    font-size: 0.75em;
+}
+
+/* HOW TO SECTION */
+.mainContent .howTo {
+    background: url(../../images/common/table-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 35px 10px;
+}
+.mainContent .howTo ol {
+    font-size: 14px;
+    padding-left: 20px;
+}
+.mission-table {
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: #f5cd62;
+    overflow: hidden;
+    width: 105%;
+    margin-left: -4.8%;
+    margin-top: 7px;
+    margin-bottom: 12px;
+    border: 2px solid #f5cd62;
+}
+.mission-table td {
+    padding: 3px 4px;
+    text-align: center;
+}
+.mission-table thead td {
+    background: #346269;
+}
+.mission-table tbody tr:nth-child(even) td {
+    background: #3b0c73;
+}
+.mission-table tbody tr:nth-child(odd) td {
+    background: #270451;
+}
+.mission-table thead td:not(:last-child),
+.mission-table tbody td:not(:last-child) {
+    border-right: 2px solid #f5cd62;
+}
+.mission-table tbody td:first-child {
+    width: 60%;
+}
+.howTo-right-img {
+    position: absolute;
+    top: -70px;
+    width: 75px;
+    right: -15px;
+}
+.howTo-left-img {
+    position: absolute;
+    top: -80px;
+    width: 75px;
+    left: -15px;
+}
+
+/* PRIZES TABLE SECTION */
+.prizesTable-wrapper {
+    max-width: 380px;
+    width: 97%;
+    margin: 0 auto;
+}
+.prizesTable-border {
+    padding: 1px;
+    background: #fe9f02;
+    border-radius: 7px;
+    z-index: 99;
+    position: relative;
+}
+.prizesTable-wrapper table {
+    background: #6a0444;
+    border-radius: 6px;
+    overflow: hidden;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    border: 1px solid #6a0444;
+}
+.prizesTable-wrapper table td {
+    padding: 5px 4px;
+}
+.prizesTable-wrapper table td:nth-child(2) {
+    text-align: left;
+}
+.prizesTable-wrapper table thead td {
+    background: #3f0278;
+}
+.prizesTable-wrapper table thead td:not(:last-child),
+.prizesTable-wrapper table tbody td:not(:last-child) {
+    border-right: 1px solid #fe9f02;
+}
+.prizesTable-wrapper table thead td,
+.prizesTable-wrapper table tbody tr:not(:last-child) td {
+    border-bottom: 1px solid #fe9f02;
+}
+.prizesTable-wrapper table tbody tr:nth-child(odd) {
+    background: #8331d5;
+}
+.prizesTable-wrapper table tbody tr:nth-child(even) {
+    background: #a330ca;
+}
+img.prizes-left {
+    position: absolute;
+    left: -90px;
+    top: 50%;
+    width: 120px;
+    transform: translate(0, -50%);
+}
+img.prizes-right {
+    position: absolute;
+    right: -90px;
+    top: 50%;
+    width: 120px;
+    transform: translate(0, -50%);
+}
+img.linebright {
+    position: absolute;
+    width: 100%;
+    bottom: -11px;
+    z-index: 99;
+}
+
+/* Steps Section */
+.mainContent .stepBox {
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.stepBox p {
+    margin: 40px 0 20px;
+    text-transform: uppercase;
+}
+
+.stepBox .stepsWrapper {
+    display: none;
+    margin: 50px auto;
+}
+
+.stepBox .stepsWrapper > div {
+    width: 33.3%;
+}
+
+.stepBox .stepBox-icons-slider {
+    display: block;
+}
+
+.stepBox .stepBox-icons-slider .carousel-inner {
+    margin: 2rem auto;
+    padding: 2rem 1rem 0;
+}
+
+.stepBox .stepBox-icons-slider .carousel-indicators {
+    bottom: -30px;
+    display: none;
+}
+
+.stepBox img.stepImages {
+    width: 80%;
+    max-width: 250px;
+    -webkit-transform-origin: top center;
+    transform-origin: top center;
+    -webkit-animation: hanging-swing 2s infinite;
+    animation: hanging-swing 2s infinite;
+}
+
+@-webkit-keyframes hanging-swing {
+    20% {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg)
+    }
+    40% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg)
+    }
+    60% {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg)
+    }
+    80% {
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg)
+    }
+    to {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+  }
+  
+  @keyframes hanging-swing {
+    20% {
+        -webkit-transform: rotate(15deg);
+        transform: rotate(15deg)
+    }
+    40% {
+        -webkit-transform: rotate(-10deg);
+        transform: rotate(-10deg)
+    }
+    60% {
+        -webkit-transform: rotate(5deg);
+        transform: rotate(5deg)
+    }
+    80% {
+        -webkit-transform: rotate(-5deg);
+        transform: rotate(-5deg)
+    }
+    to {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg)
+    }
+  }
+
+
+/* BATS STYLE */
+.mainContent.halloween23 .halloween-bat {
+    transform: scale(0.5);
+}
+/* TNC */
+.tnc-btn .sectionTitle.highlight:hover {
+    color: #c77d03;
+}
+
+/* FORMS */
+.form-floating>label {
+    padding: 0.75rem 0.75rem;
+    font-size: 14px;
+}
+.form-note {
+    font-size: 12px;
+    width: 90%;
+    margin: 0 auto;
+}
+.form-container {
+    padding: 100px 10px 120px;
+    width: fit-content;
+    margin: 0 auto;
+}
+.formWrapper {
+    z-index: 99;
+    position: relative;
+    max-width: 350px;
+    margin: 0 auto;
+}
+img.form-bg {
+    top: 0px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 160%;
+    bottom: 0;
+    height: 100%;
+    margin-left: -30%;
+    z-index: 9;
+}
+img.form-left-art {
+    position: absolute;
+    top: 0;
+    left: -180px;
+    width: 250px;
+}
+img.form-right-art {
+    position: absolute;
+    bottom: 10px;
+    right: -215px;
+    width: 250px;
+}
+
+.tnc-bg {
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.4s all ease-in-out;
+}
+.collapse.show .tnc-bg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: visible;
+    opacity: .5;
+}
+.halloween23-modal .modal-content {
+    background-color: #270451;
+    color: #fff;
+}
+
+@media screen and (min-width: 375px) {
+    /* MAIN BANNER */
+    .textBanner {
+        margin-top: -120px;
+    }
+    .mainBanner > div.buttonBanner {
+        padding: 0 20px;
+    }
+
+    /* STEPS */
+    .stepBox p {
+        font-size: 18px;
+    }
+
+    /* HOW TO */
+    .howTo-wrapper {
+        max-width: 370px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    /* MAIN BANNER */
+    .textBanner {
+        font-size: 18px;
+    }
+    .textBanner h1 {
+        font-size: 1.25em;
+    }
+    .mission-table {
+        font-size: 12.8px;
+    }
+    .mission-table tbody td:first-child {
+        width: 55%;
+    }
+    .mission-table td {
+        padding: 5px 4px;
+        text-align: center;
+    }
+    .mainContent .howTo ol {
+        font-size: 15px;
+    }
+    .howTo-left-img {
+        top: -115px;
+        width: 100px;
+        left: -50px;
+    }
+    .howTo-right-img {
+        top: -100px;
+        width: 100px;
+        right: -50px;
+    }
+    .prizesTable-wrapper table {
+        font-size: 12.8px;
+    }
+    .prizesTable-border {
+        padding: 2px;
+        border-radius: 10px;
+    }
+    .prizesTable-wrapper table td {
+        padding: 7px 4px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    /* MAIN BANNER */
+    .mainBanner > div {
+        max-width: 400px;
+    }
+    .textBanner {
+        margin-top: -140px;
+    }
+    .default-btn {
+        font-size: 0.8em;
+    }
+    .stepBox .stepBox-icons-slider {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+    .stepBox p {
+        font-size: 22px;
+    }
+    .howTo-left-img {
+        top: -125px;
+        width: 130px;
+        left: -80px;
+    }
+    .howTo-right-img {
+        top: -100px;
+        width: 130px;
+        right: -80px;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    /* MAIN BANNER */
+    .mainBanner > div {
+        max-width: 450px;
+    }
+    .textBanner {
+        font-size: 22px;
+        margin-top: -170px;
+    }
+    .textBanner h1 {
+        font-size: 1.35em;
+    }
+    .default-btn {
+        font-size: 0.9em;
+    }
+    .mainBanner > div.buttonBanner {
+        padding: 0 10px;
+    }
+    .howTo-wrapper {
+        max-width: 490px;
+        margin: 0 auto;
+    }
+    .mission-table {
+        font-size: 14px;
+    }
+    .howTo-left-img {
+        width: 140px;
+        left: -115px;
+        top: auto;
+        bottom: -90px;
+    }
+    .howTo-right-img {
+        width: 140px;
+        right: -100px;
+    }
+    .prizesTable-wrapper {
+        max-width: 480px;
+    }
+    .prizesTable-wrapper table {
+        font-size: 14px;
+    }
+    img.prizes-left {
+        left: -112px;
+        width: 150px;
+    }
+    img.prizes-right {
+        right: -120px;
+        width: 150px;
+    }
+    img.linebright {
+        bottom: -17px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mainContent.halloween23 {
+        background: url(../../images/common/desktop-bg.jpg);
+        background-position: center top;
+    }
+    /* MAIN BANNER */
+    .mainBanner > div {
+        max-width: 550px;
+        width: 95%;
+    }
+    .textBanner {
+        margin-top: -200px;
+    }
+    .imageBanner img {
+        max-width: 1200px;
+    }
+    .textBanner {
+        font-size: 25px;
+    }
+    .mainBanner > div.buttonBanner {
+        padding: 0 50px;
+        margin-top: 25px;
+    }
+    .default-btn {
+        font-size: 0.95em;
+        margin: 0;
+    }
+      
+    /* Steps Section */
+    .mainContent .stepBox {
+      padding: 0;
+    }
+  
+    .stepBox .stepsWrapper {
+      width: 80%;
+      display: flex;
+      justify-content: center;
+    } 
+    .stepBox p {
+        font-size: 15px;
+    }
+    .stepBox .stepBox-icons-slider {
+        display: none;
+    }
+  
+    /* How To List */
+    .howTo .howTo-wrapper {
+      max-width: 580px;
+      margin: 0 auto;
+    }
+    .mainContent .howTo ol {
+        font-size: 16px;
+    }
+    .mission-table {
+        font-size: 15px;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        border: 3px solid #f5cd62;
+        border-radius: 40px;
+    }
+    .mission-table td {
+        padding: 7px 5px;
+    }
+    .mission-table thead {
+        font-weight: 900;
+        font-size: 1.05em;
+    }
+    .howTo-left-img {
+        width: 140px;
+        left: -115px;
+        top: auto;
+        bottom: -90px;
+    }
+    .mission-table thead td:not(:last-child), 
+    .mission-table tbody td:not(:last-child) {
+        border-right: 3px solid #f5cd62;
+    }
+
+    /* BATS STYLE */
+    .mainContent.halloween23 .halloween-bat {
+        transform: scale(0.7);
+    } 
+
+
+    .prizesTable-wrapper table {
+        font-size: 16px;
+    }
+    .prizesTable-wrapper table thead {
+        font-weight: 900;
+    }
+    .prizesTable-wrapper {
+        max-width: 550px;
+    }
+    img.prizes-left {
+        left: -130px;
+        width: 170px;
+    }
+    img.prizes-right {
+        right: -135px;
+        width: 170px;
+    }
+    .prizesTable-border {
+        padding: 3px;
+        border-radius: 20px;
+    }
+    .prizesTable-wrapper table {
+        border-radius: 18px;
+        border: 4px solid #6a0444;
+    }
+    .prizesTable-wrapper table thead td:not(:last-child), 
+    .prizesTable-wrapper table tbody td:not(:last-child) {
+        border-right: 2px solid #fe9f02;
+    }
+    .prizesTable-wrapper table thead td, 
+    .prizesTable-wrapper table tbody tr:not(:last-child) td {
+        border-bottom: 2px solid #fe9f02;
+    }
+    .prizesTable-wrapper table td {
+        padding: 8px 10px;
+    }
+
+    .formWrapper {
+        max-width: 380px;
+    }
+    img.form-bg {
+        width: 180%;
+        margin-left: -40%;
+    }
+    .form-container {
+        padding: 120px 10px 150px;
+        width: fit-content;
+        margin: 0 auto;
+    }
+    .form-note {
+        font-size: 14px;
+    }
+    .formWrapper > span {
+        font-size: 1.25em;
+    }
+    img.form-left-art {
+        left: -240px;
+        width: 300px;
+    }
+    img.form-right-art {
+        right: -260px;
+        width: 270px;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    /* MAIN BANNER */
+    .mainBanner > div {
+        max-width: 650px;
+    }
+    .textBanner {
+        margin-top: -230px;
+        font-size: 28px;
+    }
+    .default-btn {
+        font-size: 1em;
+        max-width: 240px;
+    }
+
+    .sectionTitle {
+        font-size: 2rem;
+    }
+
+    /* Steps Section */
+    .stepBox .stepsWrapper {
+        width: 65%;
+    }  
+
+
+    /* HOW TO */
+    .howTo-left-img {
+        width: 175px;
+        left: -210px;
+        bottom: -90px;
+    }
+    .howTo-right-img {
+        width: 160px;
+        right: -150px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .form-floating > .form-control, 
+    .forminput select {
+        height: calc(3.2rem + 2px);
+    }
+    .form-floating>label {
+        font-size: 17px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /* MAIN BANNER */
+    .mainBanner > div {
+        max-width: 700px;
+    }
+    .halloween-party {
+        width: 50%;
+    }
+    .textBanner {
+        font-size: 30px;
+    }
+    .textBanner h1 {
+        font-size: 1.5em;
+    }
+    .default-btn {
+        max-width: 270px;
+    }
+
+    /* Steps Section */
+    .mainContent .stepBox {
+      padding: 50px 0;
+    }
+    .stepBox p {
+        font-size: 17px;
+    }
+
+    /* HOW TO */
+    .mainContent .howTo ol {
+        font-size: 18px;
+    }
+    .mission-table {
+        font-size: 16px;
+    }
+    .mainContent .howTo {
+        padding: 60px 10px;
+    }
+
+    .formWrapper > span {
+        font-size: 1.05em;
+    }
+    .form-group.row {
+        margin: 0 0 0.85rem 0;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    /*Steps Section */
+    .stepBox p {
+      font-size: 20px;
+    }
+
+    /* MAIN BANNER */
+    .mainBanner > div {
+        max-width: 750px;
+    }
+    .textBanner {
+        margin-top: -260px;
+    }
+    .default-btn {
+        max-width: 300px;
+        font-size: 20px;
+    }
+
+    /* HOW TO */
+    .howTo .howTo-wrapper {
+        max-width: 700px;
+    }
+    .mission-table {
+        font-size: 18px;
+    }
+
+    .prizesTable-wrapper {
+        max-width: 700px;
+    }
+    .prizesTable-wrapper table {
+        font-size: 18px;
+    }
+    .prizesTable-wrapper table td {
+        padding: 10px 15px;
+    }
+    img.prizes-left {
+        left: -170px;
+        width: 215px;
+    }
+    img.prizes-right {
+        right: -170px;
+        width: 215px;
+    }
+    img.linebright {
+        bottom: -22px;
+    }
+    .prizesTable-wrapper table {
+        border-radius: 35px;
+        border: 6px solid #6a0444;
+    }
+    .prizesTable-border {
+        padding: 5px;
+        border-radius: 40px;
+    }
+    .prizesTable-wrapper table thead td, 
+    .prizesTable-wrapper table tbody tr:not(:last-child) td {
+        border-bottom: 3px solid #fe9f02;
+    }
+    .prizesTable-wrapper table thead td:not(:last-child), 
+    .prizesTable-wrapper table tbody td:not(:last-child) {
+        border-right: 3px solid #fe9f02;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    /* MAIN BANNER */
+    .mainBanner > div {
+        max-width: 800px;
+    }
+    .imageBanner > img {
+        padding-right: 35px;
+    }
+    .textBanner {
+        margin-top: -260px;
+    }
+
+    /*Common, Steps Section */
+    body, .stepBox p  {
+        font-size: 22px;
+    }
+
+    /* Steps Section */
+    .stepBox .stepsWrapper {
+        max-width: 900px;
+    }
+
+    /* BATS STYLE */
+    .halloween-bat {
+        transform: scale(7);
+    }
+
+    .howTo-right-img {
+        width: 200px;
+        right: -200px;
+        top: -125px;
+    }
+    .howTo-left-img {
+        width: 210px;
+        left: -300px;
+        bottom: -105px;
+    }
+    .formWrapper {
+        max-width: 430px;
+    }
+    .form-note {
+        font-size: 15px;
+    }
+    .form-floating > .form-control, 
+    .forminput select {
+        height: calc(3.5rem + 2px);
+    }
+    .form-container {
+        padding: 140px 10px 170px;
+    }
+    img.form-left-art {
+        left: -300px;
+        width: 350px;
+    }
+    img.form-right-art {
+        right: -310px;
+        width: 330px;
+    }
+}   
+
+@media screen and (min-width: 1680px) {
+    /* MAIN BANNER */
+    .mainBanner > div {
+        max-width: 900px;
+    }
+    .halloween-party {
+        width: 51%;
+    }
+    .textBanner {
+        margin-top: -300px;
+        font-size: 34px;
+    }
+    .default-btn {
+        max-width: 310px;
+        font-size: 21px;
+    }
+
+    /* BATS STYLE */
+    .mainContent.halloween23 .halloween-bat {
+        transform: scale(1);
+    }
+
+    .sectionTitle {
+        font-size: 2.5rem;
+    }
+
+    /* HOW TO */
+    .mainContent .howTo ol {
+        font-size: 20px;
+    }
+    .howTo .howTo-wrapper {
+        max-width: 750px;
+    }
+    .mission-table td {
+        padding: 8px 15px;
+    }
+    .howTo-left-img {
+        width: 250px;
+        left: -340px;
+        bottom: -120px;
+    }
+    .howTo-right-img {
+        width: 240px;
+        right: -270px;
+        top: -140px;
+    }
+
+    .prizesTable-wrapper table {
+        font-size: 20px;
+    }
+    .prizesTable-wrapper {
+        max-width: 750px;
+    }
+    .prizesTable-wrapper table td {
+        padding: 12px 15px;
+    }
+    img.prizes-left {
+        left: -190px;
+        width: 245px;
+    }
+    img.prizes-right {
+        right: -195px;
+        width: 245px;
+    }
+    img.linebright {
+        bottom: -23px;
+    }
+}

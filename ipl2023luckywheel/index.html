@@ -1,0 +1,362 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- jQuery -->
+  <script src="vendor/jquery-v3.4.1/jQuery.v3.4.1.js"></script>
+  
+  <!-- Bootstrap -->
+  <script src="vendor/bootstrap-v4.4.1/js/popper.min.js"></script>
+  <script src="vendor/bootstrap-v4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="vendor/bootstrap-v4.4.1/css/bootstrap.min.css">
+
+  <!-- WinWheel -->
+  <script type="text/javascript" src="vendor/winwheel-v2.8.0/Winwheel.js"></script>
+  <script src="vendor/winwheel-v2.8.0/TweenMax.min.js"></script>
+
+  <!-- 3D SLIDER -->
+  <script src="vendor/cascade-slider-master/js/cascade-slider.js"></script>
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+        <div class="container-xl ipl2023-mainContainer overflow-hidden">
+            
+              <div class="mainContent ">
+
+                  <!-- BANNER SECTION -->
+                  <section class="mainBanner pt-5 pt-md-3 position-relative">
+                        <div class="imgTitle d-flex align-items-center justify-content-center">
+                          <img src="./images/common/ipl-logo.png" alt="Banner Logo" class="banner-logo my-0">
+                          <span class="banner-title my-0 yellowGrad">2023 LUCKY WHEEL</span>
+                        </div>
+                        <div class="text-center mt-2">
+                          <p class="banner-text text-white">SPIN & WIN A STUNNING XUV 700<br>RE SUPER METEOR 650, FREE BETS AND MORE</p>
+                        </div>
+                        <div class="dropdown-history">
+                            <button type="button" class="dropdown-btn" data-toggle="dropdown" >
+                              HISTORY <span class="dropdown-arrow"> &#129171; </span>
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-left rounded-0 p-0 mt-0">
+                                <ul class="history-info">
+                                    <li class="history-title">
+                                        <div class="prize-text">Prize</div>
+                                        <div class="date-text">Date</div>
+                                    </li>
+                                    <ul class="history-content">
+                                        <li>
+                                            <div class="history-prize">Free bet 500</div>
+                                            <div class="history-date">April 1, 2023</div>
+                                        </li>
+                                        <li class="redeem-btn">
+                                            <div class="history-prize">Noise ColorFit Pulse Grand Smart Watch <span class="badge badge-warning">Redeem !</span></div>
+                                            <div class="history-date">April 10, 2023</div>
+                                        </li>
+                                        <li>
+                                            <div class="history-prize">Free bet 500</div>
+                                            <div class="history-date">April 1, 2023</div>
+                                        </li>
+                                        <li>
+                                            <div class="history-prize">Free bet 300</div>
+                                            <div class="history-date">April 10, 2023</div>
+                                        </li>
+                                        <li>
+                                            <div class="history-prize">Free bet 500</div>
+                                            <div class="history-date">April 1, 2023</div>
+                                        </li>
+                                        <li class="redeem-btn">
+                                            <div class="history-prize">Free bet 300 <span class="badge badge-warning">Redeem !</span></div>
+                                            <div class="history-date">April 10, 2023</div>
+                                        </li>   
+                                        <li>
+                                            <div class="history-prize">Free bet 300</div>
+                                            <div class="history-date">April 10, 2023</div>
+                                        </li>   
+                                        <li>
+                                            <div class="history-prize">Free bet 300</div>
+                                            <div class="history-date">April 10, 2023</div>
+                                        </li>   
+                                        <li>
+                                            <div class="history-prize">Free bet 300</div>
+                                            <div class="history-date">April 10, 2023</div>
+                                        </li>   
+                                        <li>
+                                            <div class="history-prize">Free bet 300</div>
+                                            <div class="history-date">April 10, 2023</div>
+                                        </li>                                        
+                                    </ul>
+
+                                </ul>
+                            </div>
+                          </div>
+                  </section>
+                  <!-- BANNER SECTION -->
+
+                  <!-- SPIN WHEEL SECTION -->
+                  <section class="spinWheel position-relative">
+                        <img src="./images/common/wheel-mobile-bg.png" alt="" class="w-100 spinWheen-bg d-block d-sm-none">
+                        <img src="./images/common/wheel-desktop-bg.png" alt="" class="w-100 spinWheen-bg d-none d-sm-block">
+                        <!-- START OF SPIN WHEEL WIDGET -->
+                        <div class="wheel-container">
+                            <img src="images/common/wheel-title-img.png" alt="" class="wheel-title d-sm-none">
+                            <canvas id="wheelImg" class="wheel-img" width="500" height="500" >Canvas not supported</canvas>
+                            <img class="wheel-pointer" src="images/common/wheel-arrow.png" alt="Wheel Pointer">
+                            <button id="spinBtn"  class="spin-button" onclick="calculatePrize();">SPIN</button>
+                        </div>
+                        <!-- END OF SPIN WHEEL WIDGET -->
+                  </section>
+                  <!-- SPIN WHEEL SECTION -->
+
+                  <!-- Start of 3D Slider -->
+                  <section class="sliders mt-5 pt-3">
+                        <!-- 3d Slider -->
+                        <div class="cascade-slider_container" id="cascade-slider">
+                            <div class="cascade-slider_slides">
+                                <div class="cascade-slider_item ">
+                                    <a href="javvascript:void(0)">
+                                        <img src="images/common/prize-images/prize-01.png">
+                                    </a>                        
+                                </div>
+                                <div class="cascade-slider_item ">
+                                    <a href="javvascript:void(0)">
+                                        <img src="images/common/prize-images/prize-02.png">
+                                    </a>                        
+                                </div>
+                                <div class="cascade-slider_item ">
+                                    <a href="javvascript:void(0)">
+                                        <img src="images/common/prize-images/prize-03.png">
+                                    </a>
+                                </div>
+                                <div class="cascade-slider_item ">
+                                    <a href="javvascript:void(0)">
+                                        <img src="images/common/prize-images/prize-04.png">
+                                    </a>                        
+                                </div>
+                                <div class="cascade-slider_item">
+                                    <a href="javvascript:void(0)">
+                                        <img src="images/common/prize-images/prize-05.png">
+                                    </a>                        
+                                </div>
+                                <div class="cascade-slider_item ">
+                                    <a href="javvascript:void(0)">
+                                        <img src="images/common/prize-images/prize-01.png">
+                                    </a>                        
+                                </div>
+                                <div class="cascade-slider_item ">
+                                    <a href="javvascript:void(0)">
+                                        <img src="images/common/prize-images/prize-02.png">
+                                    </a>                        
+                                </div>
+                                <div class="cascade-slider_item ">
+                                    <a href="javvascript:void(0)">
+                                        <img src="images/common/prize-images/prize-03.png">
+                                    </a>
+                                </div>
+                                <div class="cascade-slider_item ">
+                                    <a href="javvascript:void(0)">
+                                        <img src="images/common/prize-images/prize-04.png">
+                                    </a>                        
+                                </div>
+                                <div class="cascade-slider_item">
+                                    <a href="javvascript:void(0)">
+                                        <img src="images/common/prize-images/prize-05.png">
+                                    </a>                        
+                                </div>
+                            </div>
+                            <span class="cascade-slider_arrow cascade-slider_arrow-left" data-action="prev"></span>
+                            <span class="cascade-slider_arrow cascade-slider_arrow-right" data-action="next"></span>
+                        </div>
+                  </section>  
+                  <!-- End of 3D Slider and TNC -->
+
+                  <!-- START TNC -->
+                  <section class="tncSection pt-5 pb-4">
+                        <div class="container p-0 pt-2">
+                            <div class="text-center pb-3">
+                                <a class="section-title mx-auto" data-toggle="collapse" href="#termsandconditions" role="button" aria-expanded="true" aria-controls="collapseExample">
+                                    <span class="yellowGrad">TERMS & CONDITIONS</span>
+                                </a>
+                            </div>
+                            <div class="collapse text-white" id="termsandconditions">
+                                <div class="tnc">
+                                    <ol>
+                                        <li>This promo applies to all members.</li>
+                                        <li>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, </li>
+                                        <li>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, </li>
+                                        <li>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, </li>
+                                        <li>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, </li>
+                                        <li>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, </li>
+                                        <li>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, </li>
+                                        <li>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, </li>
+                                        <li>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, </li>
+                                        <li>ed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, </li>
+                                    </ol>
+                                </div>
+                            </div>
+                        </div>
+                  </section>
+                <!-- TNC END -->
+
+              </div>
+
+        </div>
+
+
+<!-- Win Modal -->
+<div class="modal fade winning-message" id="winningMessage" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-modal="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <h2>Congratulations</h2>
+            <p>You have won <span class="prizeName"></span>.</p>
+            <span>Your prize will be credited soon!</span>
+        </div>
+      </div>
+    </div>
+</div>
+
+<!-- ALERT Modal -->
+<div class="modal fade alert-message" id="alertMessage" tabindex="-1" role="dialog" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-modal="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-body">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <p class="alert-content">Sorry, you do not have enough reward points available. Please try again once you have a minimum of 30 reward points. 
+                <a href="#" class="highlight">CLICK HERE</a> to know how to earn Rewards points 
+            </p>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+</body>
+<script>
+  let theWheel = new Winwheel({
+      'numSegments'       : 13,         
+      'outerRadius'       : 150,       
+      'drawMode'          : 'image',  
+      'segments'     :                
+      [
+         {'text' : 'XUV 700 AX5 DIESEL AT 7 STR'},
+         {'text' : 'ROYAL ENFIELD SUPER METEOR 650'},
+         {'text' : 'SAMSUNG GALAXY Z FOLD 4'},
+         {'text' : 'INR 5,000 FREE BET'},
+         {'text' : 'INR 3,000 FREE BET'},
+         {'text' : 'NOISE COLORFIT PULSE'},
+         {'text' : 'INR 500 FREE BET'},
+         {'text' : 'INR 100 FREE BET'},
+         {'text' : '100 POINTS 12REWARDS'},
+         {'text' : 'INR 50 FREE BET'},
+         {'text' : '20 FREE SPINS 12AMBER CLUB'},
+         {'text' : '10 FREE SPINS 12AMBER CLUB'},
+         {'text' : 'INR 20 FREE BET'}
+      ],
+      'animation' :          
+      {
+          'type'     : 'spinToStop',
+          'duration' : 30,     
+          'spins'    : 10,     
+          'callbackFinished' : 'alertPrize()'
+      }
+  });
+
+  let loadedImg = new Image();
+  let btnSpin = document.getElementById("spinBtn");
+
+  loadedImg.onload = function()
+  {
+      theWheel.wheelImage = loadedImg;   
+      theWheel.draw();                    
+  }
+  loadedImg.src = "images/hien/wheel-img.png";
+
+      function calculatePrize() {
+          
+          var ws = document.getElementById("wheelImg");
+          ws.classList.add("animate");
+          theWheel.stopAnimation(false)
+
+          let cases = {
+              100 : '100%', 
+          };
+          function randomInt(){
+              let random = Math.floor(Math.random() * 100);
+                  for(let prob in cases){
+                      if(prob>=random){
+                      return cases[prob];
+                  }
+              }
+          }
+          switch (randomInt()) {
+              case '100%':
+                  XUV_700_AX5_DIESEL_AT_7_STR = Math.floor(Math.random() * 24) + 2;
+                  ROYAL_ENFIELD_SUPER_METEOR_650 = Math.floor(Math.random() * 24) + 29;
+                  SAMSUNG_GALAXY_Z_FOLD_4 = Math.floor(Math.random() * 24) + 57;
+                  INR_5000_FREE_BET = Math.floor(Math.random() * 24) + 85;
+                  INR_3000_FREE_BET = Math.floor(Math.random() * 24) + 112;
+                  NOISE_COLORFIT_PULSE = Math.floor(Math.random() * 24) + 140;
+                  INR_500_FREE_BET = Math.floor(Math.random() * 24) + 168;
+                  INR_100_FREE_BET = Math.floor(Math.random() * 24) + 195;
+                  POINTS_100_12REWARDS = Math.floor(Math.random() * 24) + 223;
+                  INR_50_FREE_BET = Math.floor(Math.random() * 24) + 251;
+                  FREE_20_SPINS_12AMBER_CLUB = Math.floor(Math.random() * 24) + 278;
+                  FREE_10_SPINS_12AMBER_CLUB = Math.floor(Math.random() * 24) + 306;
+                  INR_20_FREE_BET = Math.floor(Math.random() * 24) + 334;
+                  // =======================================//
+                  winnersArray = [FREE_10_SPINS_12AMBER_CLUB, FREE_20_SPINS_12AMBER_CLUB, INR_20_FREE_BET]; 
+                  randomSegment = Math.floor(Math.random() * winnersArray.length);
+                  randomResult = winnersArray[randomSegment];
+                  break;
+          }
+
+          let stopAt = randomResult;
+          theWheel.animation.stopAngle = stopAt;
+
+          theWheel.rotationAngle=0;
+          theWheel.startAnimation();
+          btnSpin.disabled=true;
+      }
+
+      function alertPrize() {   
+          let winningSegment = theWheel.getIndicatedSegment();
+          btnSpin.disabled=false;
+          var myModal = new bootstrap.Modal(document.getElementById('winningMessage'))
+          myModal.toggle();
+          const prize = document.getElementsByClassName("prizeName");
+          prize[0].innerHTML = winningSegment.text;
+          var ws = document.getElementById("wheelImg");
+          ws.classList.remove("animate");
+      }
+   
+      function resetSpin() {
+          let stopAt = 0;
+          theWheel.stopAnimation(false); 
+          btnSpin.disabled=false;
+          theWheel.draw();  
+      }
+
+      const drawImages = setTimeout(resetSpin, 100);
+
+
+        $('#cascade-slider').cascadeSlider({
+            itemClass: 'cascade-slider_item',
+            arrowClass: 'cascade-slider_arrow',
+            autoplay: true,
+            delay: 4,
+            pauseOnHover: true
+        });
+</script>
+</html>

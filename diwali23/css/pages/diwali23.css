@@ -1,0 +1,604 @@
+/* Banner Section*/
+:root {
+    --main-font-family: 'Montserrat-Regular', sans-serif;
+    --main-button-font-family: 'Montserrat-Bold';
+    --secondary-font-family: 'Berkshire Swash', serif;
+    --headingGradient: linear-gradient(to right, #F9B03D 0%, #FAB844 30%, #FED45D 50%, #ffea75 100%);
+    --playNowBtn-bg: linear-gradient(190deg, rgba(242,208,72,1) 0%, rgba(222,194,86,1) 100%);
+    --playNowBtn-bg-hover: linear-gradient(0deg, rgba(242,208,72,1) 0%, rgba(222,194,86,1) 100%);
+    --redGradient-bg: linear-gradient(103deg, rgba(177,42,75,1) 0%, rgba(132,4,85,1) 100%);
+    --main-notice-color: #fff889;
+}
+.mainContent {
+    background-image: url(../../images/common/mobile-bg.jpg);
+    background-position: center top;
+}
+.mainContent  .mainBanner {
+    text-align: center;
+    padding: 30px 0;
+}
+.imageBanner img {
+    max-width: 1800px;
+}
+.textBanner {
+    margin-top: -40px;
+}
+.textBanner h1 {
+    font-family: var(--secondary-font-family);
+    filter: drop-shadow(0px 0px 4px #000);
+    font-size: 1.75em;
+}
+.textBanner p {
+    font-size: 0.75em;
+    filter: drop-shadow(0px 0px 4px #000);
+}
+.buttonBanner, .textBanner {
+    width: 95%;
+    font-size: 16px;
+}
+.default-btn.contentButton {
+    border-radius: 50px;
+    margin: 10px 2px;
+    font-size: 0.75em;
+}
+.headerGradient {
+    background: #F9B03D;
+    background: var(--headingGradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+sup {
+    top: -0.25em;
+}
+
+/* WEEK TABS SECTION */
+
+.diwali23 .weeksTabs {
+    background: url(../../images/common/gold-mobile-bg.png) center no-repeat;
+    background-size: 100% 100%;
+    padding: 70px 10px;
+}
+.diwali23 .weeksTabs .sectionTitle {
+    color: #5b1636;
+    margin-bottom: 15px;
+}
+.weeksTabs .accordion .accordion-item,
+.weeksTabs .accordion .accordion-header {
+    font-size: 16px;
+}
+.weeksTabs .accordion .accordion-item {
+    border: 2px solid #e1b134;
+    margin: 5px 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.accordion-button:not(.collapsed) {
+    border-bottom: 2px solid #e1b134;
+    pointer-events: none;
+}
+.accordion-header .accordion-button {
+    padding: 8px 7px;
+    text-align: center;
+    justify-content: center;
+    background: rgb(177,42,75);
+    background: var(--redGradient-bg);
+    font-size: 0.75em;
+    color: #fff;
+}
+.accordion-header .accordion-button span {
+    padding-right: 10px;
+}
+.accordion-header span strong {
+    font-family: var(--secondary-font-family);
+    font-size: 1.5em;
+    padding-right: 10px;
+}
+.accordion-body {
+    font-size: 0.75em;
+    color: #850156;
+    background-color: #fcecc2;
+}
+.default-btn.contentButton.playNowBtn {
+    font-size: 1em;
+    background: rgb(242,208,72);
+    background: var(--playNowBtn-bg);
+    color: #850156;
+    margin-bottom: 0;
+}
+.default-btn.contentButton.playNowBtn:hover {
+    background: var(--playNowBtn-bg-hover);
+}
+.default-btn.contentButton.playNowBtn[disabled] {
+    background: #8c8c8c;
+    color: #fff;
+    pointer-events: none;
+}
+.accordion-button::after {
+    filter: invert(1);
+    position: absolute;
+    right: 8px;
+}
+.weeksTabs .accordion .accordion-body p span.fw-bold {
+    display: block;
+}
+
+/* TOP PLAYERS SECTION */
+.table-wrapper {
+    width: 95%;
+    margin: 105px auto 0;
+    padding: 2px;
+    background: #e69331;
+    border-radius: 10px;
+    position: relative;
+    z-index: 9;
+}
+.top-players-table {
+    padding: 2px;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #6a0444;
+    overflow: hidden;
+    border: 4px solid #6a0444;
+}
+.top-players-table thead td {
+    padding: 10px 2px;
+    background-color: #940155;
+    border-bottom: 2px solid #6a0444;
+}
+.top-players-table td {
+    font-size: 0.8em;
+    padding: 3px 2px;
+}
+.top-players-table tbody tr:nth-child(odd) td {
+    background-color: #f3ce79;
+}
+.top-players-table tbody tr:nth-child(even) td {
+    background-color: #f1b98b;
+}
+.top-players-table tbody td:not(:last-child) {
+    border-right: 2px solid #6a0444;
+}
+.top-players-table tbody tr:not(:last-child) td {
+    border-bottom: 2px solid #6a0444;
+}
+.top-players-table tbody tr td:first-child {
+    color: #6a0444;
+}
+.top-players-table tbody tr td:last-child {
+    color: #460d09;
+}
+.topListTable-wrapper p {
+    font-size: 0.8em;
+    width: 95%;
+    margin: 0 auto 20px;
+}
+.prizes-img {
+    width: 100%;
+    max-width: 375px;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+img.bright-top {
+    position: absolute;
+    top: -10px;
+    width: 100%;
+}
+img.bright-bottom {
+    position: absolute;
+    bottom: -10px;
+    width: 100%;
+}
+
+/* MODAL POPUP */
+.diwali23-modal.lg-modal.modal .modal-content {
+    background: url(../../images/common/large-modal-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: none;
+}
+.diwali23-modal.sm-modal.modal .modal-content {
+    background: url(../../images/common/small-modal-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: none;
+}
+.diwali23-modal.modal .modal-body {
+    border: 3px solid #7b0d13;
+    border-radius: 20px;
+    padding: 40px 10px;
+}
+.diwali23-modal.modal .modal-content {
+    border: 5px solid #e69331;
+    border-radius: 23px;
+}
+.diwali23-modal.modal .modal-dialog .close {
+    padding: 0;
+    border: 1px solid;
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+    display: block;
+    top: 20px;
+    line-height: 1;
+    font-size: 16px;
+}
+.diwali23-modal.modal .modal-dialog .close {
+    padding: 0;
+    border: 2px solid #e69331;
+    border-radius: 20px;
+    width: 22px;
+    height: 22px;
+    display: block;
+    top: 10px;
+    line-height: 1;
+    font-size: 26px;
+    right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4px;
+    padding-left: 1px;
+    color: #e69331;
+}
+.diwali23-modal.modal .modal-dialog .close:hover {
+    border: 2px solid #b6701e;
+    color: #b6701e;
+}
+.diwali23-modal.modal .submitForm.modal .forminput input, 
+.diwali23-modal.modal .submitForm.modal .forminput select {
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+
+/* COMMON STYLE */
+.sectionTitle {
+    text-transform: inherit;
+}
+.diwali23 button,
+.diwali23 button:focus {
+    outline: none;
+    box-shadow: none;
+}
+img {
+    pointer-events: none;
+    user-select: none;
+}
+
+
+@media screen and (min-width: 375px) {
+    /* MAIN BANNER */
+    .default-btn.contentButton {
+        border-radius: 50px;
+        margin: 15px 5px;
+        font-size: 0.75em;
+    }
+    .buttonBanner {
+        padding: 0 10px;
+    }
+
+    /* ACCORDION WEEKTABS */
+    .weeksTabs .accordion {
+        width: 95%;
+        max-width: 375px;
+    }
+
+    /* TOP PLAYERS SECTION */
+    .table-wrapper {
+        max-width: 375px;
+        margin: 125px auto 0;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    /* MAIN BANNER */
+    .mainBanner > div {
+        max-width: 414px;
+        font-size: 17px;
+    }
+
+    /* ACCORDION WEEKTABS */
+    .weeksTabs .accordion .accordion-item, 
+    .weeksTabs .accordion .accordion-header {
+        font-size: 17px;
+    }
+
+    /* TOP PLAYERS SECTION */
+    .table-wrapper {
+        margin: 135px auto 0;
+    }
+    .top-players-table {
+        font-size: 17px;
+    }
+    .top-players-table td {
+        padding: 4px 2px;
+    }
+    .prizes-img {
+        max-width: 414px;
+    }
+}
+
+@media screen and (min-width: 575px) {
+    /* MAIN BANNER */
+    .mainBanner > div {
+        max-width: 480px;
+        font-size: 20px;
+    }
+    .textBanner {
+        margin-top: -55px;
+    }
+
+    /* ACCORDION WEEKTABS */
+    .weeksTabs .accordion {
+        max-width: 480px;
+    }
+    .weeksTabs .accordion .accordion-item, 
+    .weeksTabs .accordion .accordion-header {
+        font-size: 20px;
+    }
+
+    /* TOP PLAYERS SECTION */
+    .table-wrapper {
+        max-width: 480px;
+        border-radius: 20px;
+        margin: 190px auto 0;
+    }
+    .top-players-table {
+        font-size: 20px;
+        border-radius: 20px;
+    }
+    .topListTable-wrapper p {
+        font-size: 0.9em;
+        width: 90%;
+    }
+    .top-players-table tbody tr td:first-child {
+        width: 45%;
+    }
+    .prizes-img {
+        max-width: 600px;
+    }
+    img.bright-top {
+        top: -17px;
+    }
+    img.bright-bottom {
+        bottom: -17px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mainContent {
+        background-image: url(../../images/common/desktop-bg.jpg);
+    }
+
+    /* MAIN BANNER */
+    .mainBanner > div {
+        max-width: 650px;
+        font-size: 22px;
+    }
+    .textBanner h1 {
+        font-size: 2em;
+    }
+    .textBanner {
+        margin-top: -75px;
+    }
+    .buttonBanner, .textBanner {
+        width: 72%;
+        font-size: 16px;
+    }
+
+    /* ACCORDION WEEKTABS */
+    .diwali23 .weeksTabs {
+        background: url(../../images/common/gold-desktop-bg.png) center no-repeat;
+        background-size: 180% 100%;
+        padding: 120px 20px;
+    }
+    .weeksTabs .accordion {
+        max-width: 580px;
+    }
+    .weeksTabs .accordion .accordion-item, 
+    .weeksTabs .accordion .accordion-header {
+        font-size: 22px;
+    }
+    .accordion-header .accordion-button {
+        padding: 10px 10px;
+    }
+    .diwali23 .weeksTabs .sectionTitle {
+        margin-bottom: 25px;
+    }
+    .weeksTabs .accordion .accordion-item {
+        margin: 8px 0;
+    }
+
+    /* TOP PLAYERS SECTION */
+    .table-wrapper {
+        max-width: 600px;
+        margin: 260px auto 0;
+    }
+    .top-players-table thead td {
+        font-size: 1em;
+    }
+    .top-players-table td {
+        font-family: var(--main-button-font-family);
+        padding: 6px 5px;
+    }
+    .topListTable-wrapper p {
+        font-size: 1em;
+        width: 90%;
+    }
+    .prizes-img {
+        max-width: 800px;
+    }
+    img.bright-top {
+        top: -20px;
+    }
+    img.bright-bottom {
+        bottom: -20px;
+    }
+
+    /* COMMON STYLE  */
+    .sectionTitle {
+        font-size: 35px;
+    }
+
+    .diwali23-modal.modal .modal-dialog .close {
+        width: 30px;
+        height: 30px;
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    /* ACCORDION WEEKTABS */
+    .diwali23 .weeksTabs {
+        background-size: 140% 100%;
+    }
+
+    .table-wrapper {
+        margin: 260px auto 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    /* MAIN BANNER */
+    .mainBanner > div {
+        max-width: 740px;
+        font-size: 25px;
+    }
+    .textBanner h1 {
+        font-size: 2.25em;
+    }
+    .textBanner {
+        margin-top: -95px;
+    }
+    .default-btn.contentButton {
+        margin: 15px 8px;
+        max-width: 310px;
+    }
+
+    /* ACCORDION WEEKTABS */
+    .accordion-body {
+        padding: 30px 25px;
+    }
+    .weeksTabs .accordion .accordion-body p span.fw-bold {
+        display: unset;
+        font-family: var(--main-button-font-family);
+    }
+    .weeksTabs .accordion .accordion-item {
+        border-radius: 10px;
+        border: 4px solid #e1b134;
+    }
+    .accordion-button:not(.collapsed) {
+        border-bottom: 4px solid #e1b134;
+    }
+
+    /* TOP PLAYERS SECTION */
+    .table-wrapper {
+        max-width: 650px;
+        padding: 5px;
+        border-radius: 32px;
+    }
+    .top-players-table {
+        border: 5px solid #6a0444;
+        border-radius: 28px;
+    }
+    .top-players-table tbody tr td:first-child {
+        width: 48%;
+    }
+    .prizes-img {
+        transform: scale(1.08);
+    }
+    img.bright-top {
+        top: -23px;
+    }
+    img.bright-bottom {
+        bottom: -23px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    /* MAIN BANNER */
+    .mainBanner > div {
+        max-width: 900px;
+        font-size: 28px;
+    }
+    .default-btn.contentButton {
+        margin: 15px 8px;
+    }
+    .textBanner {
+        margin-top: -110px;
+    }
+
+    /* ACCORDION WEEKTABS */
+    .diwali23 .weeksTabs {
+        background-size: 120% 100%;
+        padding: 120px 20px 135px;
+    }
+    .weeksTabs .accordion {
+        max-width: 650px;
+    }
+    .weeksTabs .accordion .accordion-item, 
+    .weeksTabs .accordion .accordion-header {
+        font-size: 25px;
+    }
+    .weeksTabs .accordion .accordion-item {
+        margin: 10px 0;
+    }
+
+    /* COMMON STYLE */
+    .sectionTitle {
+        font-size: 40px;
+    }
+}  
+
+@media screen and (min-width: 1680px) {
+    /* MAIN BANNER */
+    .mainBanner > div {
+        max-width: 1280px;
+        font-size: 32px;
+    }
+    .textBanner {
+        margin-top: -150px;
+    }
+
+    /* ACCORDION WEEKTABS */
+    .diwali23 .weeksTabs {
+        background-size: 105% 100%;
+        padding: 140px 20px 165px;
+    }
+    .weeksTabs .accordion {
+        max-width: 780px;
+    }
+    .accordion-body {
+        padding: 45px 25px;
+    }
+
+    /* TOP PLAYERS SECTION */
+    .table-wrapper {
+        max-width: 740px;
+        margin: 305px auto 0;
+    }
+    .top-players-table {
+        font-size: 25px;
+    }
+    .prizes-img {
+        max-width: 950px;
+    }
+    img.bright-top {
+        top: -25px;
+    }
+    img.bright-bottom {
+        bottom: -25px;
+    }
+
+    /* COMMON STYLE */
+    .sectionTitle {
+        font-size: 45px;
+    }
+}   

@@ -1,0 +1,935 @@
+.fifa-qatar2022-prediction .mainContent {
+    background-image: url(../../images/common/fifa-prediction/bg.jpg);
+    background-size: 100%;
+    background-color: #540d2d;
+    overflow: hidden;
+}
+.fifa-qatar2022-prediction .mainContent section {
+    width: 100%;
+}
+/* Banner Section*/
+.fifa-qatar2022-prediction .mainContent  .mainBanner {
+    text-align: center;
+    padding: 0;
+}
+.fifa-qatar2022-prediction .mainBanner .imageBanner {
+    display: flex;
+    padding-top: 5px;  
+}
+.fifa-qatar2022-prediction .mainBanner .imageBanner > div:nth-child(1),
+.fifa-qatar2022-prediction .mainBanner .imageBanner > div:nth-child(3) {
+    width: 30%;
+}
+
+.fifa-qatar2022-prediction .mainBanner .imageBanner > div:nth-child(2) {
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 2;
+    flex-direction: column;
+}
+.fifa-qatar2022-prediction .mainBanner .imageBanner > div img {
+    width: 100%;
+}
+.fifa-qatar2022-prediction .mainBanner .imageBanner p {
+    font-size: 30px;
+    line-height: 1;
+}
+.fifa-qatar2022-prediction .imageBanner img {
+    max-width: 900px;
+}
+.fifa-qatar2022-prediction .mainContent .mainBanner .textBanner {
+    margin-top: -10px;
+}
+
+
+/* Form Section */
+.formsection form {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.formsection .row {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.form-group.row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+.formLabel {
+    display: none;
+    width: 50%;
+    text-align: right;
+    padding-right: 30px;
+}
+
+.forminput {
+    width: 100%;
+}
+
+.forminput img {
+    max-width: 350px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.forminput input,
+.forminput select,
+.select-teams-select select {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: var(--main-input-color);
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.formButton {
+    text-align: center;
+}
+
+
+/* Modal Form */
+.submitForm.modal .modal-content {
+    border-radius: 25px;
+}
+
+.submitForm.modal .title {
+    font-size: 0.75rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 1em 0.25rem;
+}
+
+.submitForm.modal p {
+    margin-bottom: 0;
+}
+
+.sumitForm-text {
+    margin: 1em 0;
+    font-size: 12px;
+    text-align: left;
+}
+
+.sumitForm-text a {
+    color: red;
+    text-decoration: underline;
+}
+
+/* How to Participate section */
+.fifa-qatar2022-prediction .howTo ol li {
+    padding-left: 7px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+/* PREDICTION TIMELINE SECTION */
+.fifa-qatar2022-prediction .mainContent .predictionTimeline {
+    background: url(../../images/common/fifa-prediction/timeline-mobile-bg.png) no-repeat;
+    background-size: 100%;
+    padding: 10px 0 !important;
+}
+.fifa-qatar2022-prediction .predictionTimeline-wrapper {
+    background: linear-gradient(180deg, #efea73, #fbfadf);
+    margin: 0 8px;
+    padding: 15px 3px;
+    z-index: 99;
+    position: relative;
+    border-radius: 25px;
+}
+.fifa-qatar2022-prediction .predictionTimeline-wrapper table {
+    position: relative;
+    color: #fff;
+}
+.fifa-qatar2022-prediction .predictionTimeline-wrapper .table tr:not(:last-child) td:first-child {
+    background: url(../../images/common/fifa-prediction/timeline-break-first.png) no-repeat;
+    background-size: contain;
+    background-position: center 79px;
+}
+.fifa-qatar2022-prediction .predictionTimeline-wrapper .table tr:not(:last-child) td:last-child {
+    background: url(../../images/common/fifa-prediction/timeline-break-last.png) no-repeat;
+    background-size: contain;
+    background-position: center 75px;
+}
+.fifa-qatar2022-prediction .predictionTimeline-wrapper .table td {
+    border-top: none;
+    padding: 4px 0.45rem;
+    text-transform: uppercase;
+    font-size: 11px;
+    text-align: center;
+    position: relative;
+    height: 90px;
+    vertical-align: middle;
+}
+.fifa-qatar2022-prediction .predictionTimeline-wrapper.border-Grad:before {
+    background: url(../../images/common/fifa-prediction/timeline-table-bg.jpg) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+/* PREDICTION PRIZE SECTION */
+.fifa-qatar2022-prediction .predictionPrize {
+    background: url(../../images/common/fifa-prediction/prediction-prize-bg.png) no-repeat;
+    background-size: 200% 125%;
+    background-position: center -65px;
+    padding-top: 80px;
+    position: relative;
+}
+.fifa-qatar2022-prediction .predictionPrize .predictionPrize-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 25px;
+    background: linear-gradient(180deg, #efea73, #fbfadf);
+    z-index: 9;
+    position: relative;
+}
+.fifa-qatar2022-prediction .predictionPrize .predictionPrize-wrapper table {
+    border-radius: 10px;
+    overflow: hidden;
+    width: 98%;
+    margin: 0 auto;
+    font-size: 12px;
+}
+.fifa-qatar2022-prediction .predictionPrize .predictionPrize-wrapper.border-Grad:before {
+    background-color: #4bbdb1;
+}
+.fifa-qatar2022-prediction .predictionPrize .predictionPrize-wrapper table thead th {
+    border-top: 0;
+}
+.fifa-qatar2022-prediction .predictionPrize .predictionPrize-wrapper table thead th:first-child,
+.fifa-qatar2022-prediction .predictionPrize .predictionPrize-wrapper table tbody td:first-child {
+    border-right: 1px solid #fff;
+}
+.fifa-qatar2022-prediction img.prizetable-bg-left {
+    position: absolute;
+    left: -100px;
+    top: 50px;
+    width: 200px;
+}
+.fifa-qatar2022-prediction img.prizetable-bg-right {
+    position: absolute;
+    right: -80px;
+    top: 50px;
+    width: 200px;
+}
+
+
+/* BORDER GRADIENT */
+.border-Grad {
+    position: relative;
+}
+.border-Grad:before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+    z-index: 0;
+    border-radius: 25px;
+    background-size: 100% 100%;
+}
+.border-Grad > * {
+    position: relative;
+}
+
+
+/* TEAM SELECT */
+.fifa-qatar2022-prediction .select-teams-wrap .team-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+.fifa-qatar2022-prediction .select-teams-wrap .team-col {
+    width: 45%;
+}
+.fifa-qatar2022-prediction .select-teams-wrap .team-col .group-title > span {
+    text-transform: uppercase;
+    font-family: var(--arabicFont);
+    background: #FFFFFF;
+    background: linear-gradient(to right, #a21e59 40%, #540d2d 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fifa-qatar2022-prediction .select-teams-wrap .team-col .group-title {
+    background: linear-gradient(90deg, #e8dfe3, #b89ca9);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px 5px;
+}
+.fifa-qatar2022-prediction .select-teams-wrap .team-col .team-icons {
+    background: linear-gradient(90deg, #2a1d22, #3f1527);
+    padding: 2px 5px;
+    margin: 3px 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.fifa-qatar2022-prediction .select-teams-wrap .team-col .team-icons.selected {
+    background: linear-gradient(90deg, #4ca6a0, #4e5764);
+}
+.fifa-qatar2022-prediction .select-teams-wrap .team-col .team-icons:last-child {
+    border-bottom-right-radius: 10px;
+}
+.fifa-qatar2022-prediction .select-teams-wrap .team-col .team-icons img,
+.fifa-qatar2022-prediction .knockOut-stage .koRound-img {
+    margin-right: 3px;
+    width: 12px;
+    margin-bottom: 2px;
+}
+
+
+/* KNOCKOUT STAGE SECTION */
+.fifa-qatar2022-prediction .knockOut-stage {
+    background: url(../../images/common/fifa-prediction/knockout-bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 50px 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.fifa-qatar2022-prediction .knockOut-stage .select-teams-bg {
+    background: linear-gradient(180deg, #efea73, #fbfadf);
+    position: relative;
+    border-radius: 25px;
+    padding: 5px 5px 20px;
+    margin-top: 0.5rem;
+    box-shadow: 0 0 35px #3333333b;
+}
+.fifa-qatar2022-prediction .knockOut-stage .select-teams-bg.border-Grad:before {
+    background: linear-gradient(90deg, rgba(43,136,131,1) 0%, rgba(73,186,174,1) 50%, rgba(43,136,131,1) 100%);
+}
+.fifa-qatar2022-prediction .knockOut-stage .select-teams-bg.yellowBorder > * {
+    position: relative;
+    z-index: 9;
+}
+.fifa-qatar2022-prediction .knockOut-stage .team-icons {
+    padding: 3px;
+    background: #520d2c;
+    border: 1px solid #d9bb8d;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 12px;
+}
+.fifa-qatar2022-prediction .knockOut-stage .teamlists > .team-icons.selected {
+    background: linear-gradient(90deg, #C98DA8, #761440);
+}
+.fifa-qatar2022-prediction .knockOut-stage .teamlists {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    justify-content: center;
+}
+.fifa-qatar2022-prediction .knockOut-stage .teamlists > * {
+    width: 48%;
+}
+
+
+/* TNC */
+.fifa-qatar2022-prediction .mainContent .tncSection {
+    margin-top: 25px;
+    width: 88%;
+}
+
+
+@media screen and (min-width: 375px) {
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper {
+        margin: 0 25px;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper .table tr:not(:last-child) td:first-child {
+        width: 33%;
+    }
+    .fifa-qatar2022-prediction  .select-team-group {
+        font-size: 12px;
+    }
+}
+
+@media screen and (min-width: 414px) {
+    .fifa-qatar2022-prediction .mainBanner .imageBanner p {
+        font-size: 2.1rem;
+    }
+    .fifa-qatar2022-prediction .mainContent .mainBanner .textBanner h2 {
+        font-size: 2.8rem;
+    }
+    .howTo ol li {
+        font-size: 15px;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper {
+        margin: 0 25px;
+        padding: 25px 3px 15px;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper .table td {
+        height: 60px;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper .table tr:not(:last-child) td:first-child {
+        background-position: center 45px;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper .table tr:not(:last-child) td:last-child {
+        background-position: center 42px;
+    }
+
+    .fifa-qatar2022-prediction .select-teams-wrap {
+        margin-top: -20px;
+    }
+    .fifa-qatar2022-prediction  .select-team-group, 
+    .fifa-qatar2022-prediction .knockOut-stage .team-icons {
+        font-size: 14px;
+    }
+    .fifa-qatar2022-prediction .select-teams-wrap .team-col .team-icons img,
+    .fifa-qatar2022-prediction .knockOut-stage .koRound-img {
+        width: 15px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper {
+        margin: 0 50px;
+        padding: 25px 3px 15px;
+    }
+}
+
+@media screen and (min-width: 575px) {
+    .fifa-qatar2022-prediction .mainBanner .imageBanner p {
+        font-size: 3rem;
+    }
+    .fifa-qatar2022-prediction .mainContent .mainBanner .textBanner h2 {
+        font-size: 3.5rem;
+    }
+    .fifa-qatar2022-prediction .howTo ol li {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+    .fifa-qatar2022-prediction .howTo ol {
+        padding-left: 20px;
+    }
+    .fifa-qatar2022-prediction .howTo .howTo-wrapper {
+        padding: 0 20px;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper .table td {
+        font-size: 12px;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper .table td {
+        height: 60px;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper .table tr:not(:last-child) td:last-child {
+        background-position: center 38px;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper .table tr:not(:last-child) td:first-child {
+        background-position: center 42px;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper {
+        margin: 0 auto;
+        padding: 25px 5px 15px;
+        max-width: 475px;
+    }
+    .fifa-qatar2022-prediction .mainContent .predictionTimeline {
+        background: url(../../images/common/fifa-prediction/timeline-desktop-bg.png) no-repeat;
+        background-size: 120%;
+        background-position: center top;
+        max-width: 768px;
+        margin: 0 auto;
+    }
+
+    .fifa-qatar2022-prediction .predictionPrize {
+        background-position: center -65px;
+        padding-top: 60px;
+        margin-top: 40px;
+    }
+    .fifa-qatar2022-prediction .predictionPrize .predictionPrize-wrapper {
+        width: 80%;
+    }
+    .fifa-qatar2022-prediction img.prizetable-bg-left,
+    .fifa-qatar2022-prediction img.prizetable-bg-right {
+        width: 280px;
+        top: 0;
+    }
+    .fifa-qatar2022-prediction .predictionPrize .predictionPrize-wrapper table {
+        font-size: 14px;
+    }
+    .fifa-qatar2022-prediction .select-teams-wrap .team-col .team-icons img,
+    .fifa-qatar2022-prediction .knockOut-stage .koRound-img {
+        width: 20px;
+    }
+    .fifa-qatar2022-prediction  .select-team-group, 
+    .fifa-qatar2022-prediction .knockOut-stage .team-icons {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:650px) {
+    .fifa-qatar2022-prediction .mainContent .predictionTimeline {
+        padding: 10px 0 50px !important;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper .table tr:not(:last-child) td:first-child {
+        background-position: center 60px;
+        width: 40%;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper .table td {
+        height: 85px;
+        font-size: 14px;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper .table tr:not(:last-child) td:last-child {
+        background-position: center 60px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .fifa-qatar2022-prediction .mainBanner .imageBanner {
+        padding-top: 10px;
+        max-width: 768px;
+        margin: 0 auto;
+    }
+    .fifa-qatar2022-prediction .mainBanner .imageBanner p {
+        font-size: 3.8rem;
+    }
+    .fifa-qatar2022-prediction .mainContent .mainBanner .textBanner h2 {
+        font-size: 4.5rem;
+        margin-bottom: 0;
+    }
+    .fifa-qatar2022-prediction .mainContent .mainBanner .textBanner {
+        margin-top: -25px;
+    }
+
+    .fifa-qatar2022-prediction .howTo .howTo-wrapper {
+        max-width: 580px;
+        margin: 0 auto;
+    }
+    .fifa-qatar2022-prediction .howTo ol li {
+        margin-bottom: 15px;
+    }
+    .fifa-qatar2022-prediction .mainContent .predictionTimeline {
+        background-size: 115%;
+        max-width: 850px;
+    }
+    .border-Grad:before {
+        top: 4px;
+        left: 4px;
+        right: 4px;
+        bottom: 4px;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper {
+        margin: 0 auto;
+        padding: 25px 5px 15px;
+        max-width: 550px;
+    }
+    .fifa-qatar2022-prediction .predictionPrize .predictionPrize-wrapper {
+        width: 90%;
+        padding: 10px 3px;
+    }
+    .fifa-qatar2022-prediction .predictionPrize > div {
+        width: 600px;
+        margin: 0 auto;
+    }
+    .fifa-qatar2022-prediction img.prizetable-bg-left {
+        left: -150px;
+    }
+    .fifa-qatar2022-prediction img.prizetable-bg-right {
+        right: -125px;
+    }
+    .fifa-qatar2022-prediction .select-teams-wrap .team-col {
+        width: 31.5%;
+        font-size: 17px;
+    }
+    .fifa-qatar2022-prediction .select-teams-wrap .team-col .group-title {
+        font-size: 20px;
+    }
+    .fifa-qatar2022-prediction .select-teams-wrap .team-col .group-title {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        border-top-right-radius: 20px;
+        padding: 2px 8px;
+    }
+    .fifa-qatar2022-prediction .select-teams-wrap .team-col .team-icons {
+        background: linear-gradient(90deg, #2a1d22, #3f1527);
+        padding: 4px 8px;
+        margin: 3px 0;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        text-transform: uppercase;
+    }
+    .fifa-qatar2022-prediction .select-teams-wrap .team-col .team-icons:last-child {
+        border-bottom-right-radius: 20px;
+    }
+    .fifa-qatar2022-prediction .select-teams-wrap .team-container {
+        gap: 15px;
+    }
+    .fifa-qatar2022-prediction .select-teams-wrap .team-col .team-icons img,
+    .fifa-qatar2022-prediction .knockOut-stage .koRound-img {
+        margin-right: 7px;
+        margin-bottom: 4px;
+    }
+    .fifa-qatar2022-prediction .knockOut-stage .sub-title {
+        font-size: 1.4rem;
+    }
+    .fifa-qatar2022-prediction .knockOut-stage .roundof16-container .teamlists > *,
+    .fifa-qatar2022-prediction .knockOut-stage .quarter-container .teamlists > * {
+        width: 24%;
+    }
+    .fifa-qatar2022-prediction .knockOut-stage .finals-container .teamlists > * {
+        width: 70%;
+    }
+    .fifa-qatar2022-prediction .knockOut-stage .select-teams-bg {
+        margin-top: 1.2rem;
+    }
+    .fifa-qatar2022-prediction .knockOut-stage .selectTeam-finalGroup > div:first-child {
+        width: 59.5%;
+    }
+    .fifa-qatar2022-prediction .knockOut-stage .selectTeam-finalGroup > div:last-child {
+        width: 39.5%;
+    }
+    .fifa-qatar2022-prediction .knockOut-stage .selectTeam-finalGroup {
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+    }
+    .fifa-qatar2022-prediction .submitForm.modal .title {
+        font-size: 1rem;
+        margin: 1em 3.5rem;
+    }
+    .fifa-qatar2022-prediction .sumitForm-text {
+        font-size: 14px;
+    }
+    .fifa-qatar2022-prediction .submitForm.modal .modal-content {
+        font-size: 1em;
+    }
+    .fifa-qatar2022-prediction .forminput input, .forminput select,
+    .fifa-qatar2022-prediction .select-teams-select select,
+    .fifa-qatar2022-prediction .submitForm.modal .modal-content .formButton {
+        font-size: 14px;
+    }
+    .fifa-qatar2022-prediction .predictionPrize {
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width: 850px) { 
+    .fifa-qatar2022-prediction .mainContent .predictionTimeline {
+        background-size: 100%;
+    }
+    .fifa-qatar2022-prediction .select-teams-wrap {
+        margin-top: -5px;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .fifa-qatar2022-prediction .mainBanner .imageBanner {
+        max-width: 900px;
+    }
+    .fifa-qatar2022-prediction .mainBanner .imageBanner p {
+        font-size: 4.5rem;
+    }
+    .fifa-qatar2022-prediction .howTo .howTo-wrapper {
+        max-width: 700px;
+    }
+    .fifa-qatar2022-prediction .howTo ol li {
+        margin-bottom: 20px;
+        font-size: 1.2rem;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper {
+        max-width: 650px;
+    }
+    .fifa-qatar2022-prediction .mainContent .predictionTimeline {
+        max-width: 991px;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper .table tr:not(:last-child) td:first-child {
+        background-position: center 55px;
+        width: 45%;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper .table tr:not(:last-child) td:last-child {
+        background-position: center 60px;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper .table td {
+        font-size: 15px;
+        height: 90px;
+    }
+
+}
+@media screen and (min-width: 1024px) {
+    .fifa-qatar2022-prediction .knockOut-stage .roundof16-container .teamlists,
+    .fifa-qatar2022-prediction .knockOut-stage .quarter-container .teamlists,
+    .fifa-qatar2022-prediction .knockOut-stage .semiFinals-container .teamlists {
+        gap: 5px;
+    }
+    .fifa-qatar2022-prediction .knockOut-stage .team-icons {
+        padding: 5px;
+    }
+    .fifa-qatar2022-prediction .knockOut-stage .select-teams-bg {
+        padding: 10px 10px 30px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .fifa-qatar2022-prediction .mainBanner .imageBanner {
+        max-width: 1100px;
+    }
+    .fifa-qatar2022-prediction .mainBanner .imageBanner p {
+        font-size: 5.5rem;
+    }
+    .border-Grad:before {
+        top: 6px;
+        left: 6px;
+        right: 6px;
+        bottom: 6px;
+        border-radius: 15px;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper,
+    .fifa-qatar2022-prediction .predictionPrize .predictionPrize-wrapper,
+    .fifa-qatar2022-prediction .knockOut-stage .select-teams-bg {
+        border-radius: 25px;
+    }
+    .fifa-qatar2022-prediction .predictionPrize {
+        background: url(../../images/common/fifa-prediction/prediction-prize-bg.png) no-repeat;
+        background-size: 170% 190%;
+        background-position: center -111px;
+        padding-top: 70px;
+        position: relative;
+        margin-top: 0px;
+        padding-bottom: 50px;
+    }
+    .fifa-qatar2022-prediction .predictionPrize > div {
+        width: 700px;
+        margin: 0 auto;
+    }
+    .fifa-qatar2022-prediction .predictionPrize .predictionPrize-wrapper table {
+        font-size: 14px;
+        min-height: 400px;
+    }
+    .fifa-qatar2022-prediction .predictionPrize .predictionPrize-wrapper table td,
+    .fifa-qatar2022-prediction .predictionPrize .predictionPrize-wrapper table th {
+        vertical-align: middle;
+    }
+    .fifa-qatar2022-prediction img.prizetable-bg-left, .fifa-qatar2022-prediction img.prizetable-bg-right {
+        width: 340px;
+        top: 0;
+    }
+    .fifa-qatar2022-prediction img.prizetable-bg-left {
+        left: -200px;
+    }
+    .fifa-qatar2022-prediction img.prizetable-bg-right {
+        right: -155px;
+    }
+    .fifa-qatar2022-prediction .predictionPrize {
+        background-size: 125% 115%;
+        background-position: center -70px;
+        padding-top: 100px;
+        position: relative;
+        margin-top: 0px;
+        padding-bottom: 55px;
+    }
+
+    .fifa-qatar2022-prediction .predictionPrize .predictionPrize-wrapper table thead th {
+        border-top: 0;
+        height: 60px;
+    }
+    .fifa-qatar2022-prediction .select-teams-wrap .team-col .team-icons img,
+    .fifa-qatar2022-prediction .knockOut-stage .koRound-img {
+        margin-right: 5px;
+        margin-bottom: 4px;
+        width: 22px;
+    }
+    .fifa-qatar2022-prediction .select-teams-wrap {
+        margin-top: -30px;
+    }
+    .fifa-qatar2022-prediction .select-team-group,
+    .fifa-qatar2022-prediction .knockOut-stage .team-icons {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .fifa-qatar2022-prediction .mainBanner .imageBanner {
+        max-width: 1200px;
+    }
+    .fifa-qatar2022-prediction .mainBanner .imageBanner p {
+        font-size: 5.8rem;
+    }
+    .fifa-qatar2022-prediction .mainContent .mainBanner .textBanner h2 {
+        font-size: 5rem;
+    }
+    .fifa-qatar2022-prediction .mainContent .mainBanner .textBanner {
+        margin-top: -45px;
+    }
+    .fifa-qatar2022-prediction .howTo .howTo-wrapper {
+        max-width: 900px;
+        padding-top: 40px;
+    }
+
+    .fifa-qatar2022-prediction .howTo ol li {
+        font-size: 1.4rem;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper {
+        max-width: 750px;
+    }
+    .fifa-qatar2022-prediction .mainContent .predictionTimeline {
+        max-width: 1190px;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper .table td {
+        font-size: 16px;
+        height: 100px;
+        font-weight: 900;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper .table tr:not(:last-child) td:first-child {
+        background-position: center 60px;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper .table tr:not(:last-child) td:last-child {
+        background-position: center 67px;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper .table tr:last-child td {
+        height: 70px;
+    }
+    .fifa-qatar2022-prediction .mainContent .predictionTimeline {
+        padding: 30px 0 50px !important;
+    }
+    .fifa-qatar2022-prediction .predictionPrize .predictionPrize-wrapper table {
+        font-size: 1rem;
+        min-height: 500px;
+    }
+    .fifa-qatar2022-prediction .predictionPrize {
+        padding-top: 150px;
+    }
+    .fifa-qatar2022-prediction .predictionPrize > div {
+        width: 850px;
+        margin: 0 auto;
+    }
+    .fifa-qatar2022-prediction img.prizetable-bg-left, .fifa-qatar2022-prediction img.prizetable-bg-right {
+        width: 450px;
+        top: 0;
+    }
+    .fifa-qatar2022-prediction img.prizetable-bg-left {
+        left: -250px;
+    }
+    .fifa-qatar2022-prediction img.prizetable-bg-right {
+        right: -205px;
+    }
+    .fifa-qatar2022-prediction .predictionPrize .predictionPrize-wrapper table thead th {
+        border-top: 0;
+        height: 80px;
+    }
+    .fifa-qatar2022-prediction .select-teams-wrap .team-col .group-title {
+        font-size: 22px;
+    }
+    .fifa-qatar2022-prediction .select-teams-wrap .team-col {
+        font-size: 18px;
+    }
+    .fifa-qatar2022-prediction .select-teams-wrap .team-col .team-icons {
+        padding: 5px 10px;
+        margin: 5px 0;
+    }
+    .fifa-qatar2022-prediction .select-teams-wrap .team-container {
+        gap: 25px;
+        margin-top: 35px;
+    }
+    .fifa-qatar2022-prediction .knockOut-stage .sub-title {
+        font-size: 1.8rem;
+    }
+    .fifa-qatar2022-prediction .knockOut-stage .select-teams-bg {
+        margin-top: 1.8rem;
+    }
+    .fifa-qatar2022-prediction .submitForm.modal .modal-content {
+        font-size: 17px;
+    }
+    .fifa-qatar2022-prediction .modal-dialog .close {
+        top: 8px;
+    }
+    .fifa-qatar2022-prediction .forminput input, .forminput select,
+    .fifa-qatar2022-prediction .select-teams-select select,
+    .fifa-qatar2022-prediction .submitForm.modal .modal-content .formButton {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .fifa-qatar2022-prediction .mainContent {
+        background-position: center 5%;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper table {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .fifa-qatar2022-prediction .mainContent .tncSection {
+        margin-top: 40px;
+    }
+}
+@media screen and (min-width: 1600px) {
+    .fifa-qatar2022-prediction .mainContent {
+        background-position: center 5%;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper table {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .fifa-qatar2022-prediction .submitForm.modal .modal-content .formButton {
+        font-size: 16px;
+    }
+    .fifa-qatar2022-prediction .knockOut-stage .selectTeam-finalGroup > div:first-child {
+        width: 57.5%;
+    }
+    .fifa-qatar2022-prediction .knockOut-stage .selectTeam-finalGroup > div:last-child {
+        width: 41.5%;
+    }
+}
+@media screen and (min-width: 1680px) {
+    .fifa-qatar2022-prediction .mainBanner .imageBanner {
+        max-width: 1450px;
+    }
+    .fifa-qatar2022-prediction .mainContent {
+        background-position: center 3%;
+    }
+    .fifa-qatar2022-prediction .mainContent .mainBanner .textBanner h2 {
+        font-size: 5.5rem;
+    }
+    .fifa-qatar2022-prediction .mainContent .mainBanner .textBanner {
+        margin-top: -70px;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper {
+        max-width: 840px;
+    }
+    .fifa-qatar2022-prediction .mainContent .predictionTimeline {
+        max-width: 1400px;
+        padding-bottom: 100px !important;
+        padding-top: 60px !important;
+        margin-top: -50px;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper .table tr:not(:last-child) td:first-child {
+        background-position: center 55px;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper .table tr:not(:last-child) td:last-child {
+        background-position: center 62px;
+    }
+    .fifa-qatar2022-prediction .predictionTimeline-wrapper .table td {
+        font-size: 18px;
+    }
+    .border-Grad:before {
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+    }
+    .fifa-qatar2022-prediction .predictionPrize {
+        background-size: 100% 110%;
+    }
+    .fifa-qatar2022-prediction .knockOut-stage .roundof16-container .teamlists,
+    .fifa-qatar2022-prediction .knockOut-stage .quarter-container .teamlists,
+    .fifa-qatar2022-prediction .knockOut-stage .semiFinals-container .teamlists {
+        gap: 8px;
+    }
+    .fifa-qatar2022-prediction .knockOut-stage .select-teams-bg {
+        padding: 10px 20px 30px;
+    }
+}

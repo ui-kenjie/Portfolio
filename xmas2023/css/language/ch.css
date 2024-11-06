@@ -1,0 +1,15 @@
+/*Here is only for ch language */
+
+body {
+    font-family: 'Microsoft YaHei'
+}
+:root {
+    --main-font-family: 'Microsoft YaHei', sans-serif; 
+    --main-button-font-family: 'Microsoft YaHei', sans-serif; 
+    --secondary-font-family: 'Microsoft YaHei', sans-serif;
+}
+
+.sectionTitle,
+h1, h2, h3, h4 ,h5 ,h6 {
+    font-weight: bold;
+}

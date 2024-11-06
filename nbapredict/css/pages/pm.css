@@ -1,0 +1,452 @@
+ /* main div ============================================*/
+.mainContent.pm-nba {
+    background-image: url(../../images/common/pm/pm-desktop-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+/* Banner Section ============================================*/
+.mainContent.pm-nba section {
+    width: 100%;
+    padding: 0;
+    margin: 0 auto 1.5em;
+    margin: 0;
+}
+.mainContent.pm-nba .imageBanner img {
+    object-fit: contain;
+}
+.mainContent.pm-nba .imageBanner img:first-child {
+    width: 55%;
+}
+.mainContent.pm-nba .imageBanner img:last-child {
+    width: 45%;
+    margin-top: -12px;
+}
+/* PM section ============================================*/
+.mainContent.pm-nba .pm-section {
+    margin-bottom: 80px;
+}
+.mainContent.pm-nba .pm-wrapper {
+    min-height: 500px;
+    font-size: 1rem;
+    padding: 4px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #ece2bd, #5d4d26);
+    filter: drop-shadow(0 0 10px #ffeeae78);
+    max-width: 300px;
+}
+.mainContent.pm-nba .pm-content {
+    border-radius: 15px;
+    min-height: 500px;
+    background: #111;
+    padding: 2%;
+    font-size: 0.8em;
+    background-image: url(../../images/common/pm/pm-box-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+    z-index: 999;
+}
+.mainContent.pm-nba .pmScroll {
+    margin: 35px auto;
+    padding: 3px;
+    position: relative;
+}
+.mainContent.pm-nba .pmScroll:before {
+    position: absolute;
+    content: '';
+    background: linear-gradient(180deg, #ebe1bc, #5d4e26);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 23px;
+    filter: drop-shadow(0 0 15px #ffeeae78);
+}
+.mainContent.pm-nba .pmScroll .table-data .teamMatch > span {
+    cursor: default;
+}
+.mainContent.pm-nba .pmScroll .table-data .teamMatch {
+    display: flex;
+    font-size: 0.7em;
+    justify-content: center;
+    align-items: center;
+}
+.mainContent.pm-nba .pmScroll .table-data .teamMatch > span:first-child {
+    text-align: right;
+}
+.mainContent.pm-nba .pmScroll .table-data .teamMatch > span:last-child {
+    text-align: left;
+}
+.mainContent.pm-nba .pmScroll .table-data .teamMatch > span img {
+    margin: 0 auto;
+    height: 30px;
+    object-fit: contain;
+    min-width: 30px;
+    width: min-content;
+}
+.mainContent.pm-nba .pmScroll .table-data .teamMatch > span {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    justify-content: center;
+}
+.mainContent.pm-nba .pmScroll span.disabled > * {
+    filter: grayscale(1);
+    opacity: 0.55;
+}
+.mainContent.pm-nba .pm-wrapper img.lens-flare {
+    position: absolute;
+    z-index: 999;
+    width: 50%;
+}
+.mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-top {
+    top: -70px;
+    right: 0;
+}
+.mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-right {
+    transform: rotate(90deg);
+    right: -75px;
+    bottom: 0;
+}
+.mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-bottom {
+    bottom: -70px;
+    left: 0;
+}
+.mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-left {
+    transform: rotate(90deg);
+    left: -78px;
+    top: 0;
+}
+.mainContent.pm-nba .pm-wrapper .content-relative {
+    position: relative;
+    z-index: 9999;
+}
+.mainContent.pm-nba .pm-wrapper .content-relative .buttonBanner {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 5px;
+}
+/* SCROLL TABLE ============================================*/
+.mainContent.pm-nba .scroll.mCustomScrollbar {
+    max-height: 160px;
+}
+.mainContent.pm-nba .pmScroll .table-header, .mainContent.pm-nba .pmScroll .table-data {
+    display: flex;
+}
+.mainContent.pm-nba .pmScroll .table-header > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainContent.pm-nba .pmScroll .table-header > div:first-child, .mainContent.pm-nba .pmScroll .table-data > div:first-child,
+.mainContent.pm-nba .pmScroll .table-header > div:last-child, .mainContent.pm-nba .pmScroll .table-data > div:last-child {
+    width: 30%;
+    background: rgb(0 0 0 / 10%);
+}
+.mainContent.pm-nba .pmScroll .table-data > div:last-child {
+    font-size: 0.8em;
+}
+.mainContent.pm-nba .pmScroll .table-header > div:first-child, .mainContent.pm-nba .pmScroll .table-data > div:first-child {
+    width: 28%;
+}
+.mainContent.pm-nba .pmScroll .table-header > div:nth-child(2), .mainContent.pm-nba .pmScroll .table-data > div:nth-child(2) {
+    width: 42%;
+}
+.mCSB_inside > .mCSB_container {
+    margin-right: 0;
+}
+.mCS-3d-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, .mCS-3d-thick-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    width: 7px;
+    border-radius: 0;
+}
+.mCSB_scrollTools {
+    width: 9px;
+}
+.mCS-3d-thick.mCSB_scrollTools, .mCS-3d-thick-dark.mCSB_scrollTools, .mCS-3d-thick.mCSB_scrollTools .mCSB_draggerContainer, .mCS-3d-thick-dark.mCSB_scrollTools .mCSB_draggerContainer {
+    border-radius: 0;
+}
+.mainContent.pm-nba .pmScroll .table-header {
+    background: #f5f0cd;
+    color: #333;
+    font-family: var(--secondary-font-family);
+    align-items: stretch;
+}
+.mainContent.pm-nba .pmScroll .table-data > div {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainContent.pm-nba .pmScroll .table-header > div {
+    padding: 10px 5px;
+}
+.mainContent.pm-nba .pmScroll .table-data:nth-child(odd) {
+    background: #434047;
+}
+.mainContent.pm-nba .pmScroll .table-data:nth-child(even) {
+    background: #49464e;
+}
+.mainContent.pm-nba .table-mCustomScrollbar {
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    z-index: 9;
+}
+@media screen and (min-width: 375px) {
+    .mainContent.pm-nba .pm-wrapper {
+        max-width: 350px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-top {
+        top: -75px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-right {
+        right: -85px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-bottom {
+        bottom: -75px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-left {
+        transform: rotate(90deg);
+        left: -88px;
+   }
+    .mainContent.pm-nba .pmScroll .table-data .teamMatch > span img {
+        height: 40px;
+   }
+   .mainContent.pm-nba .scroll.mCustomScrollbar {
+    max-height: 200px;
+}
+}
+@media screen and (min-width: 414px) {
+    .mainContent.pm-nba .pmScroll .table-data .teamMatch {
+        font-size: 0.8em;
+   }
+    .mainContent.pm-nba .pm-wrapper {
+        max-width: 375px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-top {
+        top: -80px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-right {
+        right: -95px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-bottom {
+        bottom: -80px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-left {
+        transform: rotate(90deg);
+        left: -98px;
+   }
+}
+@media screen and (min-width: 480px) {
+    .mainContent.pm-nba .pm-wrapper {
+        max-width: 410px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-top {
+        top: -90px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-right {
+        right: -100px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-bottom {
+        bottom: -90px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-left {
+        transform: rotate(90deg);
+        left: -103px;
+   }
+    .mainContent.pm-nba .pmScroll .table-data > div:last-child, .mainContent.pm-nba .pmScroll .table-data .teamMatch {
+        font-size: 0.95em;
+   }
+}
+@media screen and (min-width: 575px) {
+    .mainContent.pm-nba .pm-content {
+        margin: 0 auto;
+        font-size: 0.9em;
+   }
+    .mainContent.pm-nba .pm-section {
+        margin-top: -20px;
+   }
+    .mainContent.pm-nba .pm-wrapper {
+        max-width: 500px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-top {
+        top: -110px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-right {
+        right: -125px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-bottom {
+        bottom: -110px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-left {
+        transform: rotate(90deg);
+        left: -128px;
+   }
+   .mainContent.pm-nba .scroll.mCustomScrollbar {
+    max-height: 240px;
+}
+}
+@media screen and (min-width: 768px) {
+    .mainContent.pm-nba .pm-content {
+        margin: 0 auto;
+        font-size: 1em;
+        padding: 5%;
+   }
+    .mainContent.pm-nba .pm-section {
+        margin-top: -35px;
+   }
+    .mainContent.pm-nba .pmScroll {
+        width: 90%;
+   }
+    .mainContent.pm-nba .pm-wrapper {
+        max-width: 650px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-top {
+        top: -140px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-right {
+        right: -160px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-bottom {
+        bottom: -140px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-left {
+        transform: rotate(90deg);
+        left: -165px;
+   }
+    .mainContent.pm-nba .pmScroll .table-data .teamMatch > span img {
+        height: 50px;
+   }
+    .mainContent.pm-nba .imageBanner img:first-child {
+        transform: scale(0.9);
+   }
+   .mainContent.pm-nba .pmScroll .table-header > div:first-child, .mainContent.pm-nba .pmScroll .table-data > div:first-child {
+    width: 20%;
+}   
+.mainContent.pm-nba .pmScroll .table-header > div:nth-child(2), .mainContent.pm-nba .pmScroll .table-data > div:nth-child(2) {
+    width: 50%;
+}
+.mainContent.pm-nba .pmScroll .table-data .teamMatch > span {
+    display: block;
+}
+.mainContent.pm-nba .pmScroll .table-data .teamMatch > span img {
+    margin: 0 3px;
+}
+
+}
+@media screen and (min-width: 991px) {
+    .mainContent.pm-nba .pm-section {
+        margin-top: -45px;
+   }
+    .mainContent.pm-nba .pm-content {
+        margin: 0 auto;
+        font-size: 1.1em;
+   }
+    .mainContent.pm-nba .pm-wrapper {
+        max-width: 750px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-top {
+        top: -160px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-right {
+        right: -180px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-bottom {
+        bottom: -160px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-left {
+        transform: rotate(90deg);
+        left: -185px;
+   }
+    .mainContent.pm-nba .pmScroll .table-data .teamMatch > span img {
+        height: 60px;
+   }
+   .mainContent.pm-nba .scroll.mCustomScrollbar {
+    max-height: 280px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .mainContent.pm-nba .pm-section {
+        margin-top: -65px;
+   }
+    .mainContent.pm-nba .pmScroll {
+        width: 80%;
+   }
+}
+@media screen and (min-width: 1366px) {
+   /* Background position */
+    .mainContent.pm-nba {
+        background-position: center 2%;
+   }
+   /* banner image */
+    .mainContent.pm-nba .imageBanner img:last-child {
+        margin-top: -25px;
+        transform: scale(1.1);
+   }
+    .mainContent.pm-nba .pm-wrapper {
+        max-width: 991px;
+   }
+    .mainContent.pm-nba .pm-content {
+        font-size: 1.2em;
+   }
+    .mainContent.pm-nba .reminder {
+        width: 75%;
+   }
+    .mainContent.pm-nba .pm-section {
+        margin-top: -95px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare {
+        width: fit-content;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-top {
+        top: -250px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-right {
+        right: -290px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-bottom {
+        bottom: -260px;
+   }
+    .mainContent.pm-nba .pm-wrapper img.lens-flare.lens-flare-left {
+        transform: rotate(90deg);
+        left: -295px;
+   }
+    .mainContent.pm-nba .pmScroll .table-data .teamMatch {
+        gap: 20px;
+   }
+    .mainContent.pm-nba .pmScroll .table-data .teamMatch > span img {
+        height: 70px;
+   }
+   .mainContent.pm-nba .scroll.mCustomScrollbar {
+    max-height: 340px;
+    }
+}
+@media screen and (min-width: 1600px) {
+   /* Background position */
+    .mainContent.pm-nba {
+        background-position: center 10%;
+   }
+    .mainContent.pm-nba .reminder {
+        width: 80%;
+   }
+    .mainContent.pm-nba .pm-section {
+        margin-top: -170px;
+   }
+    .mainContent.pm-nba .pm-wrapper {
+        max-width: 1024px;
+   }
+    .mainContent.pm-nba .pm-content {
+        font-size: 1.35em;
+   }
+    .mainContent.pm-nba .pmScroll .table-data .teamMatch {
+        gap: 25px;
+   }
+    .mainContent.pm-nba .pmScroll .table-data .teamMatch > span img {
+        height: 75px;
+   }
+}

@@ -1,0 +1,105 @@
+/* Table with custom scrollbar */
+.tableScrollbar .table-wrapper {
+    background-color: #ece2bd;
+    width: 88%;
+    margin: 30px auto;
+    border-radius: 20px;
+    color: #343237;
+    background: rgb(243,233,196);
+    background: linear-gradient(to bottom left ,lightblue,skyblue);
+    max-width: 696px;
+}
+
+.tableScrollbar .table-wrapper .table-header {
+    display: flex;
+    justify-content: center;
+    padding: 0 5px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.7rem;
+    line-height: 1;
+    font-family: var(--secondary-font-family);
+    width: 100%;
+}
+
+.tableScrollbar .table-wrapper .table-header > div {
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tableScrollbar .table-wrapper .table-header > div:nth-child(2) {
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tableScrollbar .table-wrapper > div.scroll {
+    height: 383px;
+    padding: 0 5px 5px;
+    font-size: 0.7rem;
+}
+
+.tableScrollbar .table-wrapper > div.scroll .mCustomScrollBox {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.tableScrollbar .table-wrapper .table-data {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.tableScrollbar .table-wrapper .table-data:nth-child(odd) {
+    background-color: #eee;
+}
+
+.tableScrollbar .table-wrapper .table-data:nth-child(even) {
+    background-color: #ccc;
+}
+
+/* Custom Scrollbar */
+.mCSB_inside > .mCSB_container {
+    margin: 0;
+}
+.mCS-3d-thick.mCSB_scrollTools .mCSB_draggerContainer {
+    background-color: #dadada;
+    box-shadow: none;
+    border-radius: 0;
+}
+.mCS-3d-thick.mCSB_scrollTools_vertical, 
+.mCS-3d-thick-dark.mCSB_scrollTools_vertical {
+    width: 7px;
+}
+.mCS-3d-thick.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar, 
+.mCS-3d-thick.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+    background-color: #b0adad;
+    box-shadow: none;
+    background-image: none;
+    width: 5px;
+    border-radius: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .tableScrollbar .table-wrapper .table-header,
+    .tableScrollbar .table-wrapper > div.scroll {
+        font-size: 1rem;
+    }
+  
+    .tableScrollbar .table-wrapper > div.scroll {
+        height: 445px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .tableScrollbar .table-wrapper {
+        max-width: 792px;
+    }
+}

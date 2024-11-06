@@ -1,0 +1,18 @@
+/*** Font setting ***/
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url('../../fonts/montserrat-regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url('../../fonts/montserrat-light.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url('../../fonts/montserrat-bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url('../../fonts/montserrat-black.ttf') format('truetype');
+}
+

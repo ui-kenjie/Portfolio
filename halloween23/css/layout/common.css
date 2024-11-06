@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+:root {
+  --main-background-color: #000;
+  --main-font-family: 'Montserrat-Regular', sans-serif;
+  --secondary-font-family: 'Montserrat-Black', sans-serif;
+  --main-font-color: #fff;
+  --main-notice-color: #fe9f02;
+  --main-input-color: #f8e19e;
+  --main-button-background-color: linear-gradient(to bottom, rgba(204,0,0,1) 0%,rgba(255,51,51,1) 0%,rgba(204,0,0,1) 100%,rgba(255,51,51,1) 100%,rgba(204,0,0,1) 100%);
+  --main-button-font-family: 'Montserrat-Bold';
+  --main-modal-font-color: midnightblue;
+  --main-modal-bg-color: lightblue;
+  --weekly-tabs-bg-color: midnightblue;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--main-font-family);
+  color: var(--main-font-color);
+  background-color: var(--main-background-color);
+}
+
+a,
+.highlight {
+  color: var(--main-notice-color);
+  transition: all 0.15s ease-out;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.mainContent {
+  background-image: url('../../images/common/desktop-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0 0;
+}
+
+.mainContent section {
+  padding: 50px 0 20px;  
+  margin: 0 auto 1.5rem;
+}
+
+.sectionTitle {
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--main-font-color);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: var(--secondary-font-family);
+}
+
+.sectionTitle:hover {
+    text-decoration: none;
+    color: var(--main-font-color);
+}
+
+/* TNC */
+.mainContent .tncSection {
+  margin-bottom: 0;
+  padding-bottom: 50px;
+}
+
+.tnc-btn {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.tncSection ol {
+  font-size: 0.95rem;
+  margin: 0 auto;
+  max-width: 850px;
+  width: 90%;
+}
+
+.tncSection li {
+    margin: 10px 0;
+}
+
+.tncSection ol li a {
+  color: var(--main-notice-color);
+  text-decoration: underline;
+}
+.tncSection ol li a:hover {
+  opacity: .8;
+}
+
+/*yellow-cont : list-type change color*/
+ol.yellow-cont li {
+  counter-increment: my-awesome-counter;
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+ol.yellow-cont {
+  padding-left: 25px;
+  list-style: none;
+}
+ol.yellow-cont li::before {
+  content: counter(my-awesome-counter) ".";
+  font-weight: bold;
+  line-height: 1;
+  padding-top: 3px;
+  /* background: linear-gradient(to right, #ffffbf 0%, #f9e4a8 45%, #f9e4a8 100%); */
+ background-color: var(--main-notice-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  left: -30px;
+  width: 20px;
+  text-align: right;
+}
+
+/* Modal */
+.modal-dialog .close {
+  position: absolute;
+  top: 2px;
+  right: 14px;
+  float: none;
+  color: var(--main-modal-font-color);
+  font-size: 2em;
+  opacity: 1;
+  text-shadow: none;
+  z-index: 1;
+  background: transparent;
+  border: none;
+}
+
+.modal .modal-content {
+  box-shadow: 1px 1px 20px white;
+  color: var(--main-modal-font-color);
+  background-color: var(--main-modal-bg-color);
+  text-align: center;
+}
+
+.modal-footer {
+  justify-content: center;
+  border-top: 0;
+}
+
+
+/* ADDITIONAL BOOTSTRAP 5 CSS */
+.container, 
+.container-lg, 
+.container-md, 
+.container-sm, 
+.container-xl, 
+.container-xxl {
+  max-width: 1140px;
+}
+
+
+@media screen and (max-width: 320px) {
+  /*Common*/
+  .default-btn {
+    font-size: 0.75rem;
+  }  
+  .sectionTitle {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  /*Common*/
+  .default-btn {
+    max-width: 215px;
+  }
+
+  /* Banner Section*/
+  .textBanner p {
+    font-size: 1.3rem;
+  }
+
+  /*TNC*/
+  .tncSection ol {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  /*Common*/
+  .default-btn {
+    font-size: 1rem;
+    max-width: 280px;
+    margin: 10px;
+  }
+  .sectionTitle {
+    font-size: 1.75rem;
+  }
+
+  /* Banner Section*/
+  .imageBanner img {
+    max-width: 700px;
+  } 
+  .textBanner p {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  /*Common*/
+  .default-btn {
+    font-size: 17px;
+    margin-top: 0;
+  }
+  .sectionTitle {
+    font-size: 2.5rem;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+  /*Common, TNC*/
+  body, .tncSection ol {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /*Common */
+  body {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1680px) {
+  /*Common*/
+  .default-btn {
+    font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,496 @@
+.fifaqatarprediction-pm .mainContent {
+    background-image: url(../../images/common/fifa-prediction-pm/bg.jpg);
+    background-size: 100%;
+    background-color: #540d2d;
+    padding-bottom: 1.5em;
+}
+
+.fifaqatarprediction-pm .mainContent section {
+    width: 100%;
+}
+
+
+/* Banner Section*/
+.fifaqatarprediction-pm .mainContent  .mainBanner {
+    text-align: center;
+    padding: 0;
+}
+
+.fifaqatarprediction-pm .mainBanner .imageBanner {
+    display: flex;  
+    justify-content: center;
+    padding: 0; 
+}
+
+.fifaqatarprediction-pm .mainBanner .imageBanner > div:nth-child(1),
+.fifaqatarprediction-pm .mainBanner .imageBanner > div:nth-child(3) {
+    width: 30%;
+}
+
+.fifaqatarprediction-pm .mainBanner .imageBanner > div:nth-child(2) {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.fifaqatarprediction-pm .mainBanner .imageBanner > div img {
+    width: 100%;
+}
+
+.fifaqatarprediction-pm .mainBanner .imageBanner > div:nth-child(2) img {
+    width: 120%;
+}
+
+/* PM CONTAINER */
+.fifaqatarprediction-pm .pm-section {
+    padding: 0;
+    margin-top: -30px;
+    z-index: 2;
+    position: relative;
+}
+
+.fifaqatarprediction-pm .pm-wrapper {
+    background: rgb(255,255,255);
+    background: linear-gradient(69deg, rgba(255,255,255,1) 0%, rgba(239,234,115,1) 100%);
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    padding: 3px;
+    box-shadow: 0px 0px 20px #000;
+}
+
+.fifaqatarprediction-pm .pm-wrapper .pm-content {
+    background-image: url(../../images/common/fifa-prediction-pm/pm-container-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: .5em;
+    background-position: center top;
+}
+.fifaqatarprediction-pm  .pm-content p {
+    text-transform: uppercase;
+}
+
+.fifaqatarprediction-pm .pm-content p.stylish {
+    font-family: "Qatar2022 Arabic Heavy";
+    background: #FFFFFF;
+    background: linear-gradient(to bottom, #FFFFFF 53%, #8A1F77 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(2px 4px 6px #410038);
+    text-align: center;
+    font-size: 26px;
+}
+
+.fifaqatarprediction-pm .pm-content .group-stage {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.fifaqatarprediction-pm .pm-content .group-stage .row {
+    margin: 0;
+    justify-content: center;
+}
+
+.fifaqatarprediction-pm .pm-content .title {
+    background-image: url(../../images/common/fifa-prediction-pm/titlebg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 0 auto;
+    width: 87%;
+}
+
+.fifaqatarprediction-pm .group-stage .group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px auto;
+    width: 48%;;
+}
+
+.fifaqatarprediction-pm .group-stage .group-title {    
+    background: linear-gradient(90deg, #e8dfe3, #b89ca9);
+    padding: 5px 40px 3px;
+    text-align: left;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    
+}
+
+.fifaqatarprediction-pm .group-stage .group-title span {
+    font-family: "Qatar2022 Arabic Heavy";
+    font-size: 15px;
+    background: #540D2D;
+    background: linear-gradient(to left, #540D2D 0%, #A21E59 64%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 1;
+}
+
+.fifaqatarprediction-pm .group-stage .group-team {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: linear-gradient(90deg, #4ca6a0, #4e5764);
+    width: 100%;
+    padding: 5px 15px 3px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 1px 0;
+}
+
+.fifaqatarprediction-pm .group-stage .group-team.chosen {
+    background: rgb(73,164,157);
+    background: linear-gradient(69deg, rgba(73,164,157,1) 34%, rgba(65,83,92,1) 100%);
+}
+
+.fifaqatarprediction-pm .group-stage .group-team:last-child {
+    border-bottom-right-radius: 20px;
+}
+
+.fifaqatarprediction-pm .group-stage .group-team img {
+    width: 20px;
+}
+
+.fifaqatarprediction-pm .group-stage .group-team p {
+    margin: 0 0 0 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+/* KNOCKOUT */
+.fifaqatarprediction-pm .knockout {
+    margin-top: 40px;
+}
+
+.fifaqatarprediction-pm .knockout .box-wrapper {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 30%, rgba(240,234,116,1) 100%);
+    border-radius: 40px;
+    padding: 5px;
+    margin: 30px auto 0;
+    width: 100%;
+}
+
+.fifaqatarprediction-pm .knockout > .row {
+    margin: 0;
+}
+
+.fifaqatarprediction-pm .knockout .box-wrapper .knockout-content {
+    background: rgb(42,134,129);
+    background: linear-gradient(39deg, rgba(42,134,129,1) 0%, rgba(75,189,177,1) 48%, rgba(42,134,129,1) 100%);
+    border-radius: 40px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.fifaqatarprediction-pm .knockout .knockout-content > p {
+    font-family: var(--secondary-font-family);
+    font-size: 22px;
+}
+
+.fifaqatarprediction-pm .knockout .ko-team-wrapper {
+    background-color: #03b2a1;
+    padding: 3px;
+    border-radius: 20px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.fifaqatarprediction-pm .knockout .knockout-content .row {
+    margin: 0;
+}
+
+.fifaqatarprediction-pm .knockout .ko-team-content {
+    background-color: #520d2c;
+    border: 3px solid #d9bb8d;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.fifaqatarprediction-pm .knockout .ko-team-content p {
+    margin: 0 0 0 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/* REMINDER */
+.fifaqatarprediction-pm .reminder {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 320px) {
+    .fifaqatarprediction-pm .pm-wrapper {
+        width: 95%;
+    }
+
+    .fifaqatarprediction-pm .pm-content .group-stage .row {
+        margin: 0 -6px 0 -6px;
+    }
+
+    .fifaqatarprediction-pm .group-stage .group-team {
+        padding: 5px 7px 3px;
+    }
+
+    .fifaqatarprediction-pm .group-stage .group-title span {
+        font-size: 13px;
+    }
+
+    .fifaqatarprediction-pm .group-stage .group-team p {
+        text-align: left;
+    }
+
+    .fifaqatarprediction-pm .knockout .ko-team-wrapper {
+        padding: 1px;
+        width: 49%;
+    }
+
+    .fifaqatarprediction-pm .knockout .ko-team-content {
+        border: 1px solid #d9bb8d;
+    }
+
+    .fifaqatarprediction-pm .knockout .box-wrapper {
+        padding: 2px;
+    }
+}
+
+@media screen and (min-width: 411px) {
+    .fifaqatarprediction-pm .group-stage .group {
+        max-width: 270px;
+    }
+}
+
+@media screen and (min-width: 575px) {
+    .fifaqatarprediction-pm .mainBanner .imageBanner > div:nth-child(2) img {
+        max-width: 250px;
+    }
+    
+    .fifaqatarprediction-pm .knockout .box-wrapper {
+        max-width: 80%;
+    }
+
+    .fifaqatarprediction-pm .pm-section {
+        margin-top: -40px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .fifaqatarprediction-pm .mainBanner .imageBanner > div:nth-child(1), 
+    .fifaqatarprediction-pm .mainBanner .imageBanner > div:nth-child(3) {
+        width: 27%;
+    }
+
+    .fifaqatarprediction-pm .mainBanner .imageBanner > div:nth-child(2) img {
+        max-width: 350px;
+    }
+
+    .fifaqatarprediction-pm .pm-section {
+        margin-top: -60px;
+    }
+
+    .fifaqatarprediction-pm .group-stage .group {
+        width: 30%;
+        max-width: 200px;
+        margin: 20px 10px;
+    }
+
+    .fifaqatarprediction-pm .group-stage .group-title span {
+        font-size: 18px;
+    }
+
+    .fifaqatarprediction-pm .group-stage .group-team p {
+        font-size: 15px;
+    }
+
+    .fifaqatarprediction-pm .knockout .ko-team-wrapper {
+        width: 46%;
+    }
+
+    .fifaqatarprediction-pm .knockout .ko-team-content {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 991px) {
+    .fifaqatarprediction-pm .pm-section {
+        margin-top: -80px;
+    }
+
+    .fifaqatarprediction-pm .pm-wrapper .pm-content {
+        padding: 40px;
+    }
+
+    .fifaqatarprediction-pm .pm-wrapper .pm-content > p,
+    .fifaqatarprediction-pm .pm-wrapper .pm-content .reminder p {
+        font-size: 20px;
+    }
+
+    .fifaqatarprediction-pm .group-stage .group {
+        max-width: 240px;
+    }
+
+    .fifaqatarprediction-pm .group-stage .group-team p {
+        font-size: 14px;
+    }
+
+    .fifaqatarprediction-pm .knockout .box-wrapper {
+        max-width: 95%;
+    }
+
+    .fifaqatarprediction-pm .knockout .box-wrapper .knockout-content {
+        padding: 15px;
+    }
+
+    .fifaqatarprediction-pm .knockout .ko-team-wrapper {
+        width: 25%;
+    }
+
+    .fifaqatarprediction-pm .knockout .semi-final .ko-team-wrapper {
+        width: 50%;
+    }
+
+    .fifaqatarprediction-pm .knockout .ko-team-content p {
+        font-size: 14px;
+    }
+
+    .fifaqatarprediction-pm .knockout .row.semi-final .ko-team-wrapper {
+        width: 35%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .fifaqatarprediction-pm .pm-content .title {
+        width: 47%;
+    }
+
+    .fifaqatarprediction-pm .pm-content p.stylish {
+        font-size: 36px;
+    }
+
+    .fifaqatarprediction-pm .group-stage .group {
+        max-width: 255px;
+    }
+
+    .fifaqatarprediction-pm .group-stage .group-title span {
+        font-size: 20px;
+    }
+
+    .fifaqatarprediction-pm .group-stage .group-team p {
+        font-size: 16px;
+    }
+
+    .fifaqatarprediction-pm .knockout .ko-team-content p {
+        font-size: 16px;
+    }
+
+    .fifaqatarprediction-pm .knockout .row.semi-final > .box-wrapper:nth-child(1) {
+        width: 55%;
+    }
+
+    .fifaqatarprediction-pm .knockout .row.semi-final > .box-wrapper:nth-child(2) {
+        width: 35%;
+    }
+
+    .fifaqatarprediction-pm .knockout .row.semi-final > .box-wrapper:nth-child(2) .ko-team-wrapper {
+        width: 100%;
+    }
+
+    .fifaqatarprediction-pm .knockout .row.semi-final .ko-team-wrapper {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .fifaqatarprediction-pm .mainBanner .imageBanner > div:nth-child(2) img {
+        max-width: 450px;
+        margin-top: -50px;
+    }
+
+    .fifaqatarprediction-pm .pm-section {
+        margin-top: -130px;
+    }
+
+    .fifaqatarprediction-pm .pm-section .pm-wrapper {
+        width: 80%;
+        padding: 6px;
+    }
+
+    .fifaqatarprediction-pm .group-stage .group {
+        max-width: 260px;
+    }
+
+    .fifaqatarprediction-pm .group-stage .group-team p {
+        font-size: 18px;
+    }
+
+    .fifaqatarprediction-pm .knockout .ko-team-content p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .fifaqatarprediction-pm .mainBanner .imageBanner > div:nth-child(2) img {
+        max-width: none;
+        margin-top: -70px;
+    }
+
+    .fifaqatarprediction-pm .pm-section {
+        margin-top: -130px;
+    }
+    .fifaqatarprediction-pm .knockout .box-wrapper {
+        max-width: 88%;
+    }
+
+    .fifaqatarprediction-pm .knockout > .row {
+        margin: 0 auto;
+        max-width: 92.5%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .fifaqatarprediction-pm .mainBanner .imageBanner > div:nth-child(2) img {
+        max-width: none;
+        margin-top: -100px;
+    }
+
+    .fifaqatarprediction-pm .pm-section {
+        margin-top: -200px;
+    }
+
+    .fifaqatarprediction-pm .pm-wrapper .pm-content {
+        padding: 70px 70px 1em;
+    }
+
+    .fifaqatarprediction-pm .group-stage .group-title span {
+        font-size: 22px;
+    }
+
+    .fifaqatarprediction-pm .pm-wrapper .pm-content > p, 
+    .fifaqatarprediction-pm .pm-wrapper .pm-content .reminder p {
+        font-size: 24px;
+    }
+
+    .fifaqatarprediction-pm .pm-content .group-stage .row {
+        margin: 0 auto;
+        max-width: 90%;
+    }
+}
+@media screen and (min-width: 1680px) {
+    .fifaqatarprediction-pm .pm-section .pm-wrapper{
+        width: 60%;
+    }
+}

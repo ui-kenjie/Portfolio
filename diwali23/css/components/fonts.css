@@ -1,0 +1,39 @@
+/*** Font setting ***/
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url('../../fonts/montserrat-regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url('../../fonts/montserrat-light.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url('../../fonts/montserrat-bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url('../../fonts/montserrat-black.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Noto Serif Telugu';
+  src: url('../../fonts/noto-serif-telugu-regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Noto Serif Telugu';
+  src: url('../../fonts/noto-serif-telugu-medium.ttf') format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Noto Serif Telugu';
+  src: url('../../fonts/noto-serif-telugu-bold.ttf') format('truetype');
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'Ramaraja';
+  src: url('../../fonts/Ramaraja-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Berkshire Swash';
+  src: url('../../fonts/BerkshireSwash-Regular.ttf') format('truetype');
+}

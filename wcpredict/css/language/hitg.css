@@ -1,0 +1,12 @@
+/*Here is only for hitg language */
+
+body {
+    font-family: 'Noto Serif Telugu'
+}
+
+.sectionTitle,
+.contestPrizes table tr th,
+.contestPrizes table tr td:nth-child(1),
+.contestPrizes table tr td:nth-child(3) {
+    font-weight: bold;
+}

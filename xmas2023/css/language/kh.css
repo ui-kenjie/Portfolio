@@ -1,0 +1,11 @@
+/*Here is only for kh language */
+:root {
+    --main-font-family: 'Nokora', sans-serif; /* REGULAR FONT  (Google font) */
+    --main-button-font-family: 'Nokora', sans-serif; /* MEDIUM FONT (Google font) */
+    --secondary-font-family: 'Nokora', sans-serif; /* BOLDER FONT (Google font) */
+}
+
+.sectionTitle,
+h1, h2, h3, h4 ,h5 ,h6 {
+    font-weight: bold;
+}
